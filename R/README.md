@@ -1,7 +1,7 @@
 # ![Generic badge](https://badgen.net/badge/icon/R%E7%A8%8B%E5%BC%8F%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7?icon=visualstudio&label&logo=appveyor.svg)
-* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `%E5%8C%AF%E5%85%A5%E8%B3%87%E6%96%99`:excel.csv.json
-* `資料清理`  
-* 繪圖  
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `匯入資料`:excel.csv.json
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料清理`  
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `繪圖` 
   * EDA  
 https://badgen.net/badge/icon/R%E7%A8%8B%E5%BC%8F%E7%9A%84%E5%B0%8F%E5%B7%A5%E5%85%B7?style=flat&logo=#7A1FA2.svg
 ?style=flat&logo=appveyor
