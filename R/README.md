@@ -20,4 +20,4 @@ https://via.placeholder.com/150/FFFFFF/2982bc?Text=%E4%BD%A0%E5%A5%BD
 @@ text in purple (and bold)@@
 ```
 
-![#FF0000](https://placehold.it/15/FFFFFF/2982bc?text=+)
+!(https://placehold.it/15/FFFFFF/2982bc?text=+)
