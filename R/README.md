@@ -3,7 +3,7 @@
 ```diff
 - excel in red
 - csv  in orange
-# json in orange
+! json in orange
 ```
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料清理`  
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `繪圖` 
