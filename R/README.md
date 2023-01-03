@@ -13,7 +13,7 @@
 
 https://via.placeholder.com/150/FFFFFF/2982bc?Text=%E4%BD%A0%E5%A5%BD
 ```diff
-- green- [red] - green
+- in green - [red] - green
 + text in green
 ! text in orange
 # text in gray
