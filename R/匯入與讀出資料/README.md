@@ -1,11 +1,11 @@
 #目錄
 ##讀取資料read
-*csv  
-    *套件:  
-*excel
+* csv  
+      * 套件:  
+* excel
 
-*json
+* json
 
-*sas檔
+* sas檔
 
 ##讀出資料write
