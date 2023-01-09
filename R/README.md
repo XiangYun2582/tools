@@ -5,6 +5,7 @@
 ! 2.csv
 ! 3.json
 + 注意編碼使用何種(utf-8(中文較穩定) big5(預設))，可以用notepad++去檢查
++ 記得要善用goole和help() 提醒自己
 ```
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料清理`  
   * 基本dplyr  
