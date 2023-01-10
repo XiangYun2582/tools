@@ -10,5 +10,5 @@
 ## 變更變數名稱
 * func: rename rename_with
 ## 資料彙整
-* func:summary summarise group_by
-
+* func: summary summarise group_by
+# 轉置之類酷東西(left_join之類)
