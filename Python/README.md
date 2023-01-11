@@ -6,4 +6,4 @@
 * 網址途徑: https://colab.research.google.com/
 * ebook: 
    * https://jakevdp.github.io/PythonDataScienceHandbook/?utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks
-   * 
+   * https://www.pdfdrive.com/python-data-analytics-data-analysis-and-science-using-pandas-matplotlib-and-the-python-programming-language-d158003322.html
