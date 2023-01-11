@@ -24,6 +24,6 @@
 * library(reshape2)  
   * Wide and long format寬轉長: melt  
   * long into widet長轉寬: dcast  
-`tidyr package 進階版`
+  * `tidyr package 進階版`
 * library(tidyr)  
   * func: gather pivot_longer
