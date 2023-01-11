@@ -21,9 +21,9 @@
 * Join data
  * func: left_join() right_join() inner_join() full_join()
 ## 轉置 
-* library(reshape2)
- * Wide and long format寬轉長: melt
- * long into widet長轉寬: dcast
+* library(reshape2)  
+  * Wide and long format寬轉長: melt  
+  * long into widet長轉寬: dcast  
 `tidyr package 進階版`
-* library(tidyr)
- * func: gather pivot_longer
+* library(tidyr)  
+  * func: gather pivot_longer
