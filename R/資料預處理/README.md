@@ -16,6 +16,6 @@
 * 上下資料合併 左右資料合併(不實用)
   * func: bind_rows() bind_cols()
   ```dif
-  - OS:其實我更常用rbind cbind，因為很直觀。
+  + OS:其實我更常用rbind cbind，因為很直觀。
   ```
   
