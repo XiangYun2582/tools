@@ -3,6 +3,8 @@
 ```diff
 ! 我有一個很大的目標，我希望之前所學過程式的一些作法也可以成功實現在Python的身上。
 ```
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `入門`  
+  * 了解python的一些架構和套件  
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料預處理`
   * pandas
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
