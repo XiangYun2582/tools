@@ -12,3 +12,7 @@
 * ebook: 
    * https://jakevdp.github.io/PythonDataScienceHandbook/?utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks
    * https://www.pdfdrive.com/python-data-analytics-data-analysis-and-science-using-pandas-matplotlib-and-the-python-programming-language-d158003322.html
+* 遇到的一些小問題
+ * Jupyter notebook 下載:https://ithelp.ithome.com.tw/articles/10200046
+ * Jupyter Notebook 和相關套件下載 :https://ithelp.ithome.com.tw/articles/10307706
+ * Jupyter Notebook 命令提示字元:https://medium.com/@yeyuting0307/win10-anaconda-%E5%91%BD%E4%BB%A4%E6%8F%90%E7%A4%BA%E5%85%83-jupyter-notebook%E6%8C%87%E4%BB%A4%E5%A4%B1%E6%95%88-758b50b694d
