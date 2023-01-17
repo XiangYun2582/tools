@@ -1,3 +1,14 @@
+# NumPy 基礎: 陣列和向量計算
+* 資料交換的通用語言
+  * ndarray有效率
+  * 不用寫迴圈
+  * 利用memory-mapped讀取資料
+  * 線性代數 隨機產生器 傅利葉轉換
+  * C C++ Fortran寫成的C API介面函式庫
+* 資料轉換 清理 切分 過濾 轉換 其他運算
+* 排序 集合化 集合運算
+* 合併
+* 矩陣表達式取代條件式if else  elif
 ## NumpPy ndarrary: 多維陣列物件
 * 產生隨機資料
 * 建立ndarray
