@@ -11,6 +11,12 @@
   * 一點點排序資料整理手法
   * 打開資料 Unicode utf-8 位元概念  
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `NumPy基礎:陣列和向量運算`  
+ * 多維陣列物件
+ * 全域函式
+ * 用陣列寫陣列導向程式
+ * 從檔案輸入或輸出值到陣列
+ * 線性代數
+ * 生成偽隨機
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料預處理`
   * pandas
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
