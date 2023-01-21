@@ -23,6 +23,9 @@
   * 簡單的運算
   * 基本統計量(summary)
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料匯入和存取`  
+  * 讀取和輸出文字檔
+  * Json資料
+  * XML和HTML
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料預處理`
 
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
