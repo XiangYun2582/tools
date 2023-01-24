@@ -11,6 +11,10 @@
   * 基本dplyr  
   * tidyverse   
   * 字串處理  
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `文字處理與時間`
+  * 字串處理  
+  * *正規表達式*
+  * 日期和時間(計算)
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `繪圖` 
   * EDA  
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
