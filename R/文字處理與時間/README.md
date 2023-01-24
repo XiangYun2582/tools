@@ -33,4 +33,4 @@ str_split(c("a,b", "c,d,e"), ",")
 ## 日期和時間
 * base
 * lubridate
- * ymd
+  * ymd
