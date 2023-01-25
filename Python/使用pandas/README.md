@@ -1,7 +1,7 @@
 # 使用pandas
-* pandas的資料結構
-   * Series
-   * DataFrame
+## pandas的資料結構
+* Series
+* DataFrame
    
 | 型態  | 描述 |
 | ------------- |:-------------:|
@@ -11,7 +11,7 @@
 |Series組成的dict|每個值變成一欄;如果沒有顯式指定index的話,那麼每個Series 的index被聯集起來,就會變成列的index|
 |dict組成的dict|每個内層的dict 變成一欄:key會被聯集起變成新的列index和"Series組成的dict"情況一樣|
 |Series 或dict組成的list|每個元素變成DataFrame中的一列;dic 的key 或Series的 index會聯集起來變成Dataframe的欄標籤|
-  * index物件
+* index物件
   
 | 方法  | 描述 |
 | ------------- |:-------------:|
@@ -26,8 +26,8 @@
 |is_monotonic|如果每個元素都大於等於前面的元素的話,回傳True|
 |is_unique|如果沒有重複值的話,回傳True|
 |unique|取得Index中不重複資料陣列|
-* 重要功能
-  * 重做索引
+## 重要功能
+* 重做索引
 
 | 參數  | 描述 |
 | ------------- |:-------------:|
@@ -38,9 +38,9 @@
 |tolerance|作index不精比對情況使用,配合前一個值或後面一個值插值,最多填到哪裡(絕對數值差距)(譯按:符合abs(index[indexer]-target)<=tolerance條件時填值)|
 |level|使用MultiIndex時,指定匹配哪一層inex|
 |copy|如果設定True話,即使新舊index完全相同,也會進行底層的資料複製;如果為False的話,在index相同時,不要複製資料|
-  * 指定軸刪除資料
-  * 索引選擇和過濾
-  * 用loc和iloc作選擇
+* 指定軸刪除資料
+* 索引選擇和過濾
+* 用loc和iloc作選擇
 ```diff
 !有點重要是個好方法
 ```
@@ -59,7 +59,7 @@
 |df.iat[i, j]|用欄和列位(整數)選擇單一值|
 |reindex方法|用標籤選擇欄或列|
 |get_value,set_value 方法|用欄和列標籤選擇單一值|
-  * 整數索引
+* 整數索引
 
 ```python
 ser = pd.Series(np.arange(3.))
@@ -68,8 +68,8 @@ ser[-1]
 ```
 > 感覺沒錯 但程式要猜使用者要標籤索引還是位置索引做不太到，最後一行執行會error
 
-  * 算術運算與資料對齊
-  * 算數運算與填值
+* 算術運算與資料對齊
+* 算數運算與填值
 
 | 方法 | 描述 |
 | ------------- |:-------------:|
@@ -80,9 +80,9 @@ ser[-1]
 |mul, rmul|做乘法(*)|
 |pow, rpow|做取冪(**)|
 
-  * DataFrame 和series之間的運算
-  * apply和applymap
-  * 排序和排名
+* DataFrame 和series之間的運算
+* apply和applymap
+* 排序和排名
 
 | 方法 | 描述 |
 | ------------- |:-------------:|
@@ -92,9 +92,9 @@ ser[-1]
 |'first'|看到平手的值時,以值出現次序排名|
 |'dense'|行為同method='min',排名名次永遠只依序加1,不會因平手而增加跳過某個名次|
 
-  * 軸index有重複標籤
-* 總匯和計算描述性統計量
-  * 歸納方法
+* 軸index有重複標籤
+## 總匯和計算描述性統計量
+* 歸納方法
 
 | 方法 | 描述 |
 | ------------- |:-------------:|
@@ -102,7 +102,7 @@ ser[-1]
 |skipna|排除遺失值;預設為True|
 |level|如果該軸使用層式index(MultiIndex的話,指定level進行歸納|
 
-  * 描述和匯總統計值
+* 描述和匯總統計值
 
 | 方法 | 描述 |
 | ------------- |:-------------:|
@@ -126,8 +126,8 @@ ser[-1]
 |cumprod|累乘|
 |diff|計算和前值的算術差值|
 |pct_change|計算值的百分比變化|
-  * 相關係數和共變數
-    * yahoo
+* 相關係數和共變數
+  * yahoo
 > * 利用yahoo finance收集股價價格這沒辦法用了QQ
 > yahoo2017被Verizon收購
 ```python
