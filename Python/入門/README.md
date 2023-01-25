@@ -4,6 +4,13 @@
 ```
 * 前言 有啥套件 有甚麼功能  
   * SciPy 套件  
+   * Scipy.integrate `積分微分方程`
+   * Scipy.linalg 線性代數 矩陣分解
+   * Scipy.optimiz 函數優化器
+   * Scipy.scignal 信號處理器
+   * Scipy.sparse 稀疏矩陣
+   * Scipy.special ex:數學函式如gamma
+* Scipy.stats 描述性統計 檢驗 分布pdf之類
   * scikit-learn 套件  
   * statsmodels 套件  
   * statsmodels 套件  
