@@ -2,6 +2,7 @@
 * pandas的資料結構
    * Series
    * DataFrame
+   
    | 型態  | 描述 |
 | ------------- |:-------------:|
 |2D ndarray|一個資料矩陣,可選傳遞列和欄標籤|
@@ -11,6 +12,7 @@
 |dict組成的dict|每個内層的dict 變成一欄:key會被聯集起變成新的列index和"Series組成的dict"情況一樣|
 |Series 或dict組成的list|每個元素變成DataFrame中的一列;dic 的key 或Series的 index會聯集起來變成Dataframe的欄標籤|
   * index物件
+  
   | 方法  | 描述 |
 | ------------- |:-------------:|
 |append|連接另外的Index物件,並產生新的Index物件|
