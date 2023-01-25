@@ -31,6 +31,7 @@ pip install (package)
 ```
 * import慣例  
 ***社群常用的簡寫
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -38,13 +39,18 @@ import pandas as pd
 import seaborn as sns
 import statsmodels as sm
 ```
-`from numpy import不好表示不好書寫的不知道為甚麼(大型套件?)`
-***術語 感覺是什麼術式(如蔓蔓樺)
-* 資料探勘 munge munging wrangling 
-* 虛擬程式碼 Psedocode
-* 糖衣語法 sysntactic sugar(不會加入新功能的程式碼，意味更方便使用)
-* 術語  
+
+`from numpy import不好表示不好書寫的不知道為甚麼(大型套件?)`  
+***術語 感覺是什麼術式(如蔓蔓樺)***
+> * 資料探勘 munge munging wrangling 
+> * 虛擬程式碼 Psedocode
+> * 糖衣語法 sysntactic sugar(不會加入新功能的程式碼，意味更方便使用)
+> * 術語  
 * 工作路徑getwd  
+> * 學習連結:附贈中文亂碼問題
+> * 1.https://ithelp.ithome.com.tw/articles/10234373
+> * 2.https://nbviewer.org/github/yenlung/Deep-Learning-Basics/blob/master/colab99_%E5%9C%A8_matplotlib_%E4%B8%AD%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87.ipynb?fbclid=IwAR0qEzwT_62unuwy2aAs5-E5HOVsFus8OZY_b4E0BIjDqPS4vcnEutEMpok
+
 * magic 命令  
 * Matplotlib 整合  
 * 判斷字串種類或形態  
