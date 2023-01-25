@@ -8,6 +8,7 @@
 * 從序列建立dict  
 * dict 合法的key型態  
 * set  
+* 
 | 🐤函式  | 🐤等同語法 |🍊描述|
 | ------------- |:-------------:|:-------------:|
 |a.add(x)|N/A|將元素×加入集合a|
@@ -38,6 +39,7 @@ for valin collection:
 * 函式即物件  
 * 匿名lambda函式  
 * itertools 模組  
+
 | ✨函式  | 🐤描述 |
 | ------------- |:-------------:|
 |combinations(iterable, k)|產生所有元素可能的k-tuple到疊代變數中,忽略次序也不進行置換(也看看同類的函式combinations_with_repacement)|
@@ -46,6 +48,7 @@ for valin collection:
 |product(*iterables, repeat=1)|為輸入的疊代變數生成笛卡兒積tuple,類似巢式for迴圈|
 * 錯誤及例外處理trycatch  
 * Python檔案模式  
+
 | ✨函式  | 🐤描述 |
 | ------------- |:-------------:|
 |r|唯讀模式|
@@ -57,6 +60,7 @@ for valin collection:
 |t|文字模式(自動地解碼為Unicode)如果沒有指定的話,此項為預設模式。可將t加到其他的模式使用(例如:'rt'或'xt')|
 
 * Python檔案方法屬性
+
 | ✨方法  | 🐤屬性 |
 | ------------- |:-------------:|
 |read([size])|檔案中資料字串回傳，可選擇輸入size參數，指定要讀多少位元組|
