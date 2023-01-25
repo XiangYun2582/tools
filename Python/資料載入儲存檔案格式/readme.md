@@ -1,4 +1,6 @@
-# 讀取和寫入文字格式資料
+#資料載入儲存檔案格式
+
+## 讀取和寫入文字格式資料
 * 分段讀取文字檔
   * 教你如何匯入資料(read_csv)
   * 資料的格式col和row以及data
@@ -15,8 +17,8 @@
   * Beautiful Soap
   * html5lib
 * 用lxml.objectify解析XML
-# 二進位資料格式
+## 二進位資料格式
 * HDF5 格式
 * 讀取微軟excel檔案
-# 使用Web API
-# 使用資料庫
+## 使用Web API
+## 使用資料庫
