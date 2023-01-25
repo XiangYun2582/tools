@@ -52,6 +52,21 @@ import statsmodels as sm
 > * 2.https://nbviewer.org/github/yenlung/Deep-Learning-Basics/blob/master/colab99_%E5%9C%A8_matplotlib_%E4%B8%AD%E4%BD%BF%E7%94%A8%E4%B8%AD%E6%96%87.ipynb?fbclid=IwAR0qEzwT_62unuwy2aAs5-E5HOVsFus8OZY_b4E0BIjDqPS4vcnEutEMpok
 
 * magic 命令  
+  * %quickref 顯示IPython 快速參考卡
+  * %magic 顯示所有可用magic命令的詳細文件
+  * %debug 在底部進進入互錯器,並顯示最後一個例外追蹤
+  * %hist 印出輸入命令(或輸出命令)的記錄
+  * %pdb 例外發生後自動進入除錯器
+  * %paste 執行剪貼簿中的Python
+  * %cpaste 開啟一個特殊的命令提示,用來手動贴上要執行的Python程式
+  * %reset 刪除互動名稱空間中現有所有變數和名稱
+  * %page OBJECT 透過pager 印出比較好看物件資訊
+  * %run script.py 在IPython 中執行一個Python腳本
+  * %prun statement 用cprofile執行statement並顯示profiler 產出
+  * %time statement 回報單一述句的執行時間
+  * %timeit statement 多次執行單一述句,計算平均計算時間,這個功能有助於測量執行時間極短的程式碼
+  * %who, %who_ls, %whos 顯示在互動名稱空間中的變數,指定資訊層級或全部輸出
+  * %xdel variable 刪除單一變數,並清除IPython內部指向該物件得參照
 * Matplotlib 整合  
 * 判斷字串種類或形態  
 * 引用  
