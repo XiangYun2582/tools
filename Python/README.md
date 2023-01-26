@@ -27,7 +27,9 @@
   * Json資料
   * XML和HTML
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料處理和前處理`
-  * 暫緩(我搞一下R)
+  * 處理遺失資料:過濾和填值NA
+  * 資料轉換
+  * 字串操作:正規表達式
 
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
   * 
