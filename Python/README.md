@@ -33,7 +33,7 @@
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料處理連接合併和重塑`
   * 階層的概念,類似類別資料的table
   * 資料合併(join)
-  * 轉table2*2或是2*1型式
+  * 轉table2＊2或是2＊1型式
   * 長轉寬、寬轉長(類似r pivot melt)
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
   * 
