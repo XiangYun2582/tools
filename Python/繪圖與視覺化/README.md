@@ -33,8 +33,8 @@ plt.subplots_adjust(left=None,bottom=None,right=None,top=None,wspace=None,hspace
 
 * 加入圖示
 * 註釋與畫圖形
- * text會在指定的位置寫上客製化的文字
- * 當然還有其他如text arrow 和annotate
+  * text會在指定的位置寫上客製化的文字  
+  * 當然還有其他如text arrow 和annotate  
 ```
 ax.text(x,y,'fxxk u world! \t syntax error : bad words',family ='monospace',fontsize=10)
 ```
