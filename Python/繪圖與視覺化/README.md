@@ -27,8 +27,8 @@ plt.subplots_adjust(left=None,bottom=None,right=None,top=None,wspace=None,hspace
 * 刻度 標籤和圖例
 `設定主題 軸標籤 刻度和刻度標籤`
 
-[中文顯示問題範例](https://colab.research.google.com/github/willismax/matplotlib_show_chinese_in_colab/blob/master/matplotlib_show_chinese_in_colab.ipynb#scrollTo=YF7KkDLjH1JL)  
-[style細節](https://ithelp.ithome.com.tw/articles/10222330)
+>[中文顯示問題範例](https://colab.research.google.com/github/willismax/matplotlib_show_chinese_in_colab/blob/master/matplotlib_show_chinese_in_colab.ipynb#scrollTo=YF7KkDLjH1JL)  
+>[style細節](https://ithelp.ithome.com.tw/articles/10222330)
 
 * 加入圖示
 * 註釋與畫圖形
@@ -110,8 +110,8 @@ plt.rc('font',**font_options)
 * 散佈圖或稱點圖
 * 層面圖層與分組資料
  * 詳細:  
-[Seaborn.FacetGrid](https://seaborn.pydata.org/)
+>[Seaborn.FacetGrid](https://seaborn.pydata.org/)
  * 其他的視覺化工具:  
-[Bokeh](https://bokeh.pydata.org/)  
-[Ploty](https://github.com/plotly/plotly.py)  
-▶ 做出動態 可互動的python圖形
+>[Bokeh](https://bokeh.pydata.org/)  
+>[Ploty](https://github.com/plotly/plotly.py)  
+>▶ 做出動態 可互動的python圖形
