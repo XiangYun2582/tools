@@ -71,6 +71,7 @@ import statsmodels as sm
 * 判斷字串種類或形態  
 * 引用  
 * 高級計算機讚啦 
+
 | 運算  | 敘述 |
 | ------------- |:-------------:|
 | a + b      | a加b     |
@@ -90,6 +91,7 @@ import statsmodels as sm
 | a is not b      | 如果a和b參照到不同一個Python物件,結果為True     | 
 
 * Scalar 類型  
+
 | 類型  | 敘述 |
 | ------------- |:-------------:|
 |None|Python中的“null"值(None物件只有唯一一個實例)|
