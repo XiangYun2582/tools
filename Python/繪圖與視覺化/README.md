@@ -111,9 +111,9 @@ plt.rc('font',**font_options)
 * 直方圖和密度圖
 * 散佈圖或稱點圖
 * 層面圖層與分組資料
- * 詳細:  
+  * 詳細:   
 >[Seaborn.FacetGrid](https://seaborn.pydata.org/)
- * 其他的視覺化工具:  
+  * 其他的視覺化工具:  
 >[Bokeh](https://bokeh.pydata.org/)  
 >[Ploty](https://github.com/plotly/plotly.py)  
 >▶ 做出動態 可互動的python圖形
