@@ -37,9 +37,10 @@ plt.subplots_adjust(left=None,bottom=None,right=None,top=None,wspace=None,hspace
 ```
 ax.text(x,y,'fxxk u world! \t syntax error : bad words',family ='monospace',fontsize=10)
 ```
- * text會在指定的位置寫上客製化的文字
- * 當然還有其他如text arrow 和annotate
+  * text會在指定的位置寫上客製化的文字
+  * 當然還有其他如text arrow 和annotate
 * 把圖存檔
+
 ```python
 plt.savefig('figpath.svg')
 plt.savefig('figpath.png',dpi=400,bbox_inches='tight')#dpi像素解析度
