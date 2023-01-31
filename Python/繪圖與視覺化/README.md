@@ -6,7 +6,8 @@
   * fig 感覺就是建立圖層
   * subplot 類似建立子圖層(2*2,第幾個)
   * plt.show()直接顯示
-  * pyplot.subplots 可用選項
+---
+* pyplot.subplots 可用選項
 
 |🥉參數|🦉描述|
 | --------- |:---------:|
