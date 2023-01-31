@@ -35,6 +35,11 @@
   * 資料合併(join)
   * 轉table2＊2或是2＊1型式
   * 長轉寬、寬轉長(類似r pivot melt)
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `繪圖與視覺化`
+  * matplotlib 的一些功能:建立圖層和子圖層
+  * 標題標籤和附註的功能(內含:**中文解決辦法**)
+  * 用pandas和seaborn繪圖,如:長條圖、直方圖
+  * 補充資料:Boken、Ploty ▶ 做出動態 可互動的python圖形
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `實用`
 ```python
