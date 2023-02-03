@@ -45,6 +45,9 @@
   * 簡單的補值作法,如:mean median...等  
   * 樞紐關係表和交叉表
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `進階pandas`
+  * 指標變數(dummy variables)和有序變數
+  * transform和lambda語法
+  * 串接手法
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `實用`
 ```python
