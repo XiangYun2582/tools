@@ -48,6 +48,10 @@
   * 指標變數(dummy variables)和有序變數
   * transform和lambda語法
   * 串接手法
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `python中的建模函式庫`
+  * pandas與模型間的介面  
+  * Pasty公式  
+  * statsmodels簡介  
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `其他`
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `實用`
 ```python
