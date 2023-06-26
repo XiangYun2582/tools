@@ -68,11 +68,11 @@ This is \textit{斜體} style
 新增圖片時，可以新增一個檔案夾儲存所有圖片  
 點擊左上方的資料夾圖示(紅框)，輸入資料夾名並按下Create  
 新資料夾會顯示在左方列表  
-![image](https://ithelp.ithome.com.tw/upload/images/20181213/20113622pqCM1xIEON.png=80%x) 
-![image](https://ithelp.ithome.com.tw/upload/images/20181213/20113622hCd59JvI6M.png)  
+![](https://ithelp.ithome.com.tw/upload/images/20181213/20113622pqCM1xIEON.png=80%x) 
+![](https://ithelp.ithome.com.tw/upload/images/20181213/20113622hCd59JvI6M.png=80%x)  
 選擇資料夾後，點擊上傳圖示(紅框)  
 拖曳要上傳的圖片至虛線方框範圍內即可上傳  
-![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136229gQCwLI4xr.png)
+![](https://ithelp.ithome.com.tw/upload/images/20181213/201136229gQCwLI4xr.png=80%x)
 ## 常用數學式
 
 
