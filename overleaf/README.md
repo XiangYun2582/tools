@@ -75,7 +75,7 @@ This is \textit{斜體} style
 ![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136229gQCwLI4xr.png)
 Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{graphicx}
 在使用圖片前需要定義資料夾
-![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136221CTzG5IIyj.png)
+
 ```
 \graphicspath{ {...資料夾位置...} }
 
