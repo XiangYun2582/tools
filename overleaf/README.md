@@ -72,7 +72,7 @@ This is \textit{斜體} style
 ![](https://ithelp.ithome.com.tw/upload/images/20181213/20113622hCd59JvI6M.png=80%x)  
 選擇資料夾後，點擊上傳圖示(紅框)  
 拖曳要上傳的圖片至虛線方框範圍內即可上傳  
-![](https://ithelp.ithome.com.tw/upload/images/20181213/201136229gQCwLI4xr.png=80%x)
+![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136229gQCwLI4xr.png=80%x)
 ## 常用數學式
 
 
