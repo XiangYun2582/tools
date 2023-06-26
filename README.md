@@ -7,4 +7,9 @@
   * 繪製地圖
   * 視覺化分析
   * 資料探勘
-* python  
+* python
+  * 檢易的基礎語法
+  * 深度學習
+* overleaf
+  * latex和PPT的應用
+  > 尤其是數學符號 
