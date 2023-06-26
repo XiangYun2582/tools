@@ -1,4 +1,4 @@
-![圖片](https://github.com/XiangYun2582/tools/assets/110577553/c9ea5573-91a6-4c6d-a31d-3a16eea3413e)# Overleaf 小攻略
+# Overleaf 小攻略
 ----
 ##  Overleaf 的基本功能
 * 選擇Blank Project即可新增一個空白專案`建立專案是最基本的喔`
@@ -68,7 +68,7 @@ This is \textit{斜體} style
 新增圖片時，可以新增一個檔案夾儲存所有圖片  
 點擊左上方的資料夾圖示(紅框)，輸入資料夾名並按下Create  
 新資料夾會顯示在左方列表  
-![image](https://ithelp.ithome.com.tw/upload/images/20181213/20113622pqCM1xIEON.png =80%x)  
+![image](https://ithelp.ithome.com.tw/upload/images/20181213/20113622pqCM1xIEON.png=80%x) 
 ![image](https://ithelp.ithome.com.tw/upload/images/20181213/20113622hCd59JvI6M.png)  
 選擇資料夾後，點擊上傳圖示(紅框)  
 拖曳要上傳的圖片至虛線方框範圍內即可上傳  
