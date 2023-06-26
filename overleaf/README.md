@@ -73,6 +73,15 @@ This is \textit{斜體} style
 選擇資料夾後，點擊上傳圖示(紅框)  
 拖曳要上傳的圖片至虛線方框範圍內即可上傳  
 ![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136229gQCwLI4xr.png)
+Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{graphicx}
+在使用圖片前需要定義資料夾
+![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136221CTzG5IIyj.png)
+```
+\graphicspath{ {...資料夾位置...} }
+
+```
+此範例使用\graphicspath{ {./Images} }
+最後在要新增圖片的地方加上\includegraphics{...檔案名...}
 ## 常用數學式
 
 
