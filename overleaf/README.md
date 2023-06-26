@@ -6,7 +6,8 @@
   * 作者\author{...}  
   * 日期\data{...}
 > \begin{document}與]\end{document}為文件的開始與結尾，在這之間的內容都屬於會顯示的內容
-| Left columns  | Right columns |
+
+| latex的指令  | 含義 |
 | ------------- |:-------------:|
 | \maketitle      | 顯示\title{...}、\author{...}與\data{...}的位置     |
 | \section{...}      | 是段落標題，在...內編輯即可改變標題     |
