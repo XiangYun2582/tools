@@ -1,7 +1,7 @@
 # Overleaf 小攻略
 
 ----
-![image](https://github.com/XiangYun2582/tools/overleaf/genshin.gif)
+![image](https://github.com/XiangYun2582/tools/blob/main/overleaf/genshin.gif)
 
 
 
