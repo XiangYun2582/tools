@@ -1,6 +1,7 @@
 # Overleaf 小攻略
-### 跳到另一個主題  
-* [Overleaf 的基本功能](#常用數學式)    
+### 跳到另一個主題  🐇
+* [常用數學式](#常用數學式)
+* [PPT加上latex](#PPT)
 
 ----
 ##  Overleaf 的基本功能
@@ -92,7 +93,7 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 
 
 
-## PPT 加上latex
+## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
 
 
