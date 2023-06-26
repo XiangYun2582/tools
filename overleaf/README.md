@@ -82,6 +82,8 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ```
 此範例使用\graphicspath{ {./Images} }
 最後在要新增圖片的地方加上\includegraphics{...檔案名...}
+![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136221CTzG5IIyj.png)
+
 ## 常用數學式
 
 
