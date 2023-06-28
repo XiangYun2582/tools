@@ -98,7 +98,16 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ! 進入與退出隨文數式, 前後間可留一個空格, 效果較佳
 !  展示數式行距會自動處理, 前後不必空行
 ```
-![image](https://github.com/XiangYun2582/tools/assets/110577553/ccec4581-19a8-436a-aa2c-7cd739265610)
+![圖片](https://github.com/XiangYun2582/tools/assets/110577553/a8fb0293-426c-4719-99aa-5e92cb5e09f6)
+* 數學符號
+
+```diff
+! 指令命名原則: \ 符號名稱
+! 幾乎涵蓋你所想得到的符號
+! 常用自然記得, 不知道或忘了再查亦可
+! 無需指令, 可直接鍵入的符號:'+ − = < > / : ! ′ | [ ] ( )'
+```
+* 常用的希臘字母符號
 
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
@@ -109,7 +118,7 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ## ![Generic badge](https://img.shields.io/badge/%E5%9C%96%E6%A1%88-XiangYun%E7%A8%8B%E5%BC%8F-purple?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIzLjk5OSAxMi40NjVhOS42MDEgOS42MDEgMCAwIDEtMTkuMjAzIDBoMS4wN2E4LjUzIDguNTMgMCAxIDAgOC41MzMtOC41M3YtMS4wN0E5LjYgOS42IDAgMCAxIDI0IDEyLjQ2M3ptLTkuNi0zLjJhMy4yIDMuMiAwIDEgMCAzLjIgMy4yIDMuMiAzLjIgMCAwIDAtMy4yLTMuMnptLTIgMC0uNi02LjY3Mi0yLjQ2MiAxLjkyLTEuNDYtMS40NGE0LjY3IDQuNjcgMCAwIDAtNS42Mi0uMzdsLTIuMDIgMS4zYS41NC41NCAwIDAgMC0uMTUuNzQuNTQuNTQgMCAwIDAgLjc0LjE1bDItMS4zMWEzLjY0IDMuNjQgMCAwIDEgNC4yOS4yMmwxLjM3IDEuMzgtMi4yOSAxLjgyMXoiLz48L3N2Zz4=)`完了`
 ## Reference
 * [Overleaf建立新的project](https://ithelp.ithome.com.tw/articles/10210334)
-* [cwTEX速成-張耕齊]() 
+* [cwTEX速成-張耕齊](http://homepage.ntu.edu.tw/~ntut019/cwtex/cwTeX-Intro-Chang.pdf) 
 * [臺灣大學碩博士論文 XeLaTeX 模版 (社會科學)](https://github.com/kengchichang/ntuthesis-socsci/wiki)  🔥🔥🔥極度推薦
 * [資訊科學資源](https://weichetsai.com/resource/cs_resource/)
 ![image](https://github.com/XiangYun2582/tools/blob/main/overleaf/genshin.gif)
