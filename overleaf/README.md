@@ -189,8 +189,12 @@ e \ln \log \lim
   * 根號
     * 平方根指令為 `\sqrt{· · · }`
     * 三次方根指令為 `\sqrt[3]{· · · }`, 其餘類推
-    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/85093f80-17eb-4e1a-9575-c1a75cb50003)
-    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fbfaee92-111f-4351-aab5-560ac78dcec3) ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/72b4627f-409e-4daf-9113-8da4da971cb1)
+    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/18839989-24bf-47ef-9301-05ab4e7e3738)![圖片](https://github.com/XiangYun2582/tools/assets/110577553/52e10627-5021-409e-9a94-8926c79f7908)
+    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fbfaee92-111f-4351-aab5-560ac78dcec3)![圖片](https://github.com/XiangYun2582/tools/assets/110577553/72b4627f-409e-4daf-9113-8da4da971cb1)
+    ```
+   $\sqrt{x^2+y^2}$
+   $\sqrt[4]{a^2+b^2+2\sqrt{ab}}$
+    ```
 
 
 
