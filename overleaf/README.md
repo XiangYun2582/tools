@@ -183,11 +183,17 @@ e \ln \log \lim
   * 括號
     * 數式高度較高時, 使用原本的括號可能不盡理想, 此時可使用`\left(· · · \right) `指令, 括號大小會自動調整
     > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/2c84098e-f516-4813-ae42-5e749a8a50dc)
-```
-\[ (\frac{x}{y}) \left(\frac{du}{dv}\right) \]
-```
+   ```
+   \[ (\frac{x}{y}) \left(\frac{du}{dv}\right) \]
+   ```
   * 根號
-  
+    * 平方根指令為 `\sqrt{· · · }`
+    * 三次方根指令為 `\sqrt[3]{· · · }`, 其餘類推
+    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/85093f80-17eb-4e1a-9575-c1a75cb50003)
+    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fbfaee92-111f-4351-aab5-560ac78dcec3) ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/72b4627f-409e-4daf-9113-8da4da971cb1)
+
+
+
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
 
