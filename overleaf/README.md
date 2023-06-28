@@ -158,7 +158,19 @@ e \ln \log \lim
 ```
 
 * 數式排版方法
-  * 上下標
+  * 上下標:` 上標用 ^ , 下標用 , 上下標長於1 字時以 {· · · } 區隔`
+  ```latex
+  x^2
+  y_1
+  p^i_t
+  f_X(x)
+  A_{i,j}
+  e^{\lambda(e^t-1)}
+  ```
+  * 分式
+  * 括號
+  * 根號
+  
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
 
