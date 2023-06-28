@@ -159,6 +159,8 @@ e \ln \log \lim
 
 * 數式排版方法
   * 上下標:` 上標用 ^ , 下標用 , 上下標長於1 字時以 {· · · } 區隔`
+  > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/9f0e97da-1762-4233-8783-1fc4d513ae4b)
+
   ```latex
   x^2
   y_1
@@ -168,6 +170,16 @@ e \ln \log \lim
   e^{\lambda(e^t-1)}
   ```
   * 分式
+   * 簡單分式直接以 · · · /· · · 表現, 建議用於隨文模式
+   * 較複雜的分式以 \frac{· · · }{· · · } 表現, 建議用於展示數式
+   * 簡化指令:{· · · \over· · · }
+   ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/07964fd0-e565-492d-aa01-c7a9302629dd)
+   ```diff
+   ! If $\Delta x 1/\Delta m>0$,
+   ! $ \frac{x+y}{1+\frac{y}{x+y}} $
+   ! \[ \frac{x+y}{1+\frac{y}{x+y}} \]
+   ```
+  
   * 括號
   * 根號
   
