@@ -89,9 +89,16 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136221CTzG5IIyj.png)
 
 ## 常用數學式
-* 只要是數學式子都會有$🐋$包起來。像是`f(x)=x^2-2x+1`
-
-
+* 數學式子 隨文數式。像是`$f(x)=x^2-2x+1$`
+* 數學式子 展示數式(置中感覺)。像是`\[f(x)=x^2-2x+1\] `
+```diff
+! 數式環境內文字為斜體, 如 if f(x) = x 與 iff(x) = x
+! 欲在數式環境中排版正體文字, 可使用 \mbox{· · · }
+! 數式環境會自動處理空間, 故空格會被忽略
+! 進入與退出隨文數式, 前後間可留一個空格, 效果較佳
+!  展示數式行距會自動處理, 前後不必空行
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/ccec4581-19a8-436a-aa2c-7cd739265610)
 
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
@@ -102,7 +109,7 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ## ![Generic badge](https://img.shields.io/badge/%E5%9C%96%E6%A1%88-XiangYun%E7%A8%8B%E5%BC%8F-purple?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIzLjk5OSAxMi40NjVhOS42MDEgOS42MDEgMCAwIDEtMTkuMjAzIDBoMS4wN2E4LjUzIDguNTMgMCAxIDAgOC41MzMtOC41M3YtMS4wN0E5LjYgOS42IDAgMCAxIDI0IDEyLjQ2M3ptLTkuNi0zLjJhMy4yIDMuMiAwIDEgMCAzLjIgMy4yIDMuMiAzLjIgMCAwIDAtMy4yLTMuMnptLTIgMC0uNi02LjY3Mi0yLjQ2MiAxLjkyLTEuNDYtMS40NGE0LjY3IDQuNjcgMCAwIDAtNS42Mi0uMzdsLTIuMDIgMS4zYS41NC41NCAwIDAgMC0uMTUuNzQuNTQuNTQgMCAwIDAgLjc0LjE1bDItMS4zMWEzLjY0IDMuNjQgMCAwIDEgNC4yOS4yMmwxLjM3IDEuMzgtMi4yOSAxLjgyMXoiLz48L3N2Zz4=)`完了`
 ## Reference
 * [Overleaf建立新的project](https://ithelp.ithome.com.tw/articles/10210334)
-* [cwTEX速成-張耕齊](http://homepage.ntu.edu.tw/~ntut019/cwtex/cwTeX-Intro-Chang.pdf) 
+* [cwTEX速成-張耕齊]() 
 * [臺灣大學碩博士論文 XeLaTeX 模版 (社會科學)](https://github.com/kengchichang/ntuthesis-socsci/wiki)  🔥🔥🔥極度推薦
 * [資訊科學資源](https://weichetsai.com/resource/cs_resource/)
 ![image](https://github.com/XiangYun2582/tools/blob/main/overleaf/genshin.gif)
