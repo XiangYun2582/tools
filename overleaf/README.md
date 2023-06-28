@@ -170,9 +170,9 @@ e \ln \log \lim
   e^{\lambda(e^t-1)}
   ```
   * 分式
-   * 簡單分式直接以 · · · /· · · 表現, 建議用於隨文模式
-   * 較複雜的分式以 \frac{· · · }{· · · } 表現, 建議用於展示數式
-   * 簡化指令:{· · · \over· · · }
+   * 簡單分式直接以 `· · · /· · · `表現, 建議用於隨文模式
+   * 較複雜的分式以`\frac{· · · }{· · · } `表現, 建議用於展示數式
+   * 簡化指令:`{· · · \over· · · }`
    ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/07964fd0-e565-492d-aa01-c7a9302629dd)
    ```diff
    ! If $\Delta x 1/\Delta m>0$,
@@ -181,6 +181,11 @@ e \ln \log \lim
    ```
   
   * 括號
+    * 數式高度較高時, 使用原本的括號可能不盡理想, 此時可使用`\left(· · · \right) `指令, 括號大小會自動調整
+    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/2c84098e-f516-4813-ae42-5e749a8a50dc)
+```
+\[ (\frac{x}{y}) \left(\frac{du}{dv}\right) \]
+```
   * 根號
   
 ## PPT
