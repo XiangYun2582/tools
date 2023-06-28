@@ -111,17 +111,54 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fd7724d1-5016-43e4-ba0b-25a6372b2fa1)
 
 ```
+\sin \cos \tan \cot
+e \ln \log \lim
+\max \min \sum \int
+```
+* 常用的函數符號
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/93037533-a383-4c77-9c39-8022650bb947)
+
+```
 \Sigma \sigma \Delta \delta
 \alpha  \beta \theta \pi
 \phi \lambda \mu \rho
 ```
 
-> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/93037533-a383-4c77-9c39-8022650bb947)
+* 常用的箭頭符號`首字大寫表現雙箭頭, 首字小寫表現單箭頭`
 > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/29ceb205-92d1-4085-a88e-f5599158b1bd)
+
+```
+\Rightarrow \Longrightarrow
+\Leftarrow \Longleftarrow
+\Leftrightarrow \Longleftrightarrow
+\rightarrow \longrightarrow
+\leftarrow \longleftarrow
+\leftrightarrow \longleftarrow
+```
+
+* 常用的相對關係符號
 > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/45f90825-e799-4364-8c27-289d60e70d82)
+> 欲表現含等號的不等號, 請在名稱後加上 eq
+> 欲表現負的相關符號, 請在名稱前加上 n 或 not, 如
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/eb4f1d7b-9a34-4a44-9011-8d808a6a1eca)
 
+```
+= \in \sim \approx
+> < \geq \leq
+\succ \prec \succsim \precsim
+\supset  \subset \supseteq \subseteq
+```
 
+* 常用的運算符號及其他符號
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/ae25f0c4-39ad-4c36-a7d1-c9f6c7c0ebe3)
+```
+\pm \times \cdot \div
+\cap \cup \exists \forall
+\emptyset \partial \infty \mathbb{R}
+```
 
+* 數式排版方法
+ * 上下標
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
 
