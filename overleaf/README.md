@@ -89,7 +89,7 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ![image](https://ithelp.ithome.com.tw/upload/images/20181213/201136221CTzG5IIyj.png)
 
 ## 常用數學式
-[back](#跳到另一個主題)
+* [back](#跳到另一個主題)  
 * 數學式子 隨文數式。像是`$f(x)=x^2-2x+1$`
 * 數學式子 展示數式(置中感覺)。像是`\[f(x)=x^2-2x+1\] `
 ```diff
