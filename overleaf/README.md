@@ -108,6 +108,9 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ! 無需指令, 可直接鍵入的符號:'+ − = < > / : ! ′ | [ ] ( )'
 ```
 * 常用的希臘字母符號
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fd7724d1-5016-43e4-ba0b-25a6372b2fa1)
+
+
 
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
