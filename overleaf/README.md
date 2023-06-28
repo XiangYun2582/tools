@@ -158,7 +158,7 @@ e \ln \log \lim
 ```
 
 * 數式排版方法
- * 上下標
+  * 上下標
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
 
