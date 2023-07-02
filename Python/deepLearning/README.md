@@ -1,10 +1,14 @@
 # ![Generic badge](https://badgen.net/badge/python/deepLearning/orange?icon=chrome&color.svg)  
-
+----
 ### 第一章
-* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `期許`
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `介紹`
+ * 機器學習跟深度學習的差別
 
+### 第二章
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `入門`  
-  * 了解python的一些架構和套件  
+  * tensor和有名的數字圖像處理
+ 
+### 第三章
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `資料結構`  
 
 
