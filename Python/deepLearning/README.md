@@ -5,7 +5,7 @@
  * 機器學習跟深度學習的差別
 
 ### 第二章
-* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `入門`  
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `進入章節`  
   * tensor和有名的數字圖像處理
  
 ### 第三章
