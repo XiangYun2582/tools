@@ -182,6 +182,7 @@ e \ln \log \lim
     * 較複雜的分式以`\frac{· · · }{· · · } `表現, 建議用於展示數式
     * 簡化指令:`{· · · \over· · · }`
    ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/07964fd0-e565-492d-aa01-c7a9302629dd)
+   
     ```diff
     ! If $\Delta x 1/\Delta m>0$,
     ! $ \frac{x+y}{1+\frac{y}{x+y}} $
@@ -203,7 +204,7 @@ e \ln \log \lim
     > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/18839989-24bf-47ef-9301-05ab4e7e3738)
     > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/52e10627-5021-409e-9a94-8926c79f7908)
     > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fbfaee92-111f-4351-aab5-560ac78dcec3) 
-    ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/e0b06d46-5ebb-433f-9975-6eb9de9a9104)
+    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/e0b06d46-5ebb-433f-9975-6eb9de9a9104)  
 
     
    ```
