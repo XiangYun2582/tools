@@ -7,7 +7,19 @@
   * [相對關係符號](#常用的相對關係符號)  
   * [分式](#分式)  
   * [括號](#括號)
-  * [根號](#根號)  
+  * [根號](#根號)
+  * [含有括號的矩陣](#含有括號的矩陣)
+  * [條件式](#條件式)
+  * [表格模式](#表格模式)
+  * [排版表格建議](#排版表格建議)
+  * [項目型列舉](#項目型列舉)
+  * [數字型列舉](#數字型列舉)
+  * [敘述型列舉](#敘述型列舉)
+  * [常用的長度單位](#常用的長度單位)
+  * [水平空白](#水平空白)
+  * [垂直空白](#垂直空白)
+  * [調整行距](#調整行距)
+  * [居中與靠邊](#居中與靠邊)
 * [PPT加上latex](#PPT)
 * [Reference](#Reference)
 ----
@@ -212,14 +224,166 @@ e \ln \log \lim
    $\sqrt[4]{a^2+b^2+2\sqrt{ab}}$
 ```
 
+### 例子應用
+* 極限  
+  * 「趨近於」 可用簡化指令 \to 替代 \rightarrow
+  > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/2048a4ac-d7e1-4709-a8af-73ea0296394c)
+   ```diff
+   \[ \lim {x \to 0^+} \frac{\sin x}{x}=1 \]
+   ```
 
+* 微分
+  > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/94355bea-da32-4cdd-91ef-f7d6d32c790f)
+    ```diff
+   \[ \frac{dy}{dx}=f’(x)=\frac{\partial y}{\partial x} \]
+   ``` 
+* 連加
+  > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/50c5c9d7-f31f-43f2-844f-ad3d4d12127a)
+
+    ```diff
+   \[ \sum {n=2}^{\infty} \frac{\ln n}{n} \]
+   ```
+    
+* 積分
+  * dx 前可用指令 \, 加入一小空格, 效果較佳
+  > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/bc42e9ed-2c93-449c-a4a6-10d1f4bb8093)
+
+
+    ```diff
+   \[ \sum {n=2}^{\infty} \frac{\ln n}{n} \]
+   ```
+
+### 矩陣模式
+* 矩陣模式array 需使用在數學模式中
+* 一列一列輸入, 換下一列用 `\\` , 每欄用 `&` 隔開
+* 需設定每行對齊方式: l 靠左 c 置中 r 靠右
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/75d88ade-5aeb-4027-9ffd-1f0980dd6434)
+
+```
+\[ \begin{array}{lcr}
+a+b & 0 & 0 \\
+0 & b+c & 0 \\
+0 & 0 & c+a
+\end{array} \]
+```
+
+### 含有括號的矩陣
+* 利用\left(· · · \right) 使括號自動調整大小
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/518cc837-f64d-4371-8ea6-28537fbaee59)
+
+```
+\[ \left( \begin{array}{cc}
+\sigma 1^2 & \sigma {12} \\
+\sigma {21} & \sigma 2^2
+\end{array} \right) \]
+```
+
+### 條件式
+* 只希望單邊有括號時, 可利用 . 取代原括號, 如 \left(· · · \right.
+* 大括號{· · · } 往往是指令的一部分, 故單純排出大括號要用 \{· · · \}
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/03f7d7cd-2500-4de3-8f8e-2e0d4a012808)
+
+```
+\[ f(x)= \left\{ \begin{array}{ll}
+x+1 & \mbox{if } x \leq a\\
+x^2 & \mbox{if } x > a
+\end{array} \right. \]
+```
+
+### 表格
+* 表格模式 `tabular` 與矩陣模式 array 類似
+* 換下一列用 `\\` , 每欄用 & 隔開, 用 `\hline` 加入水平線
+* 需設定每欄對齊方式: `l` 靠左 `c` 置中 `r` 靠右, 用 `|` 加入垂直線
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/e412c66f-ff58-4ca3-9248-6019a14c8fa4)
+
+```
+\begin{tabular}{|c|cc|}
+\hline
+Q & TR & TC \\
+\hline
+1 & 6 & 5 \\
+2 & 12 & 8 \\
+\hline
+\end{tabular}
+```
+
+### 排版表格建議
+* 表格中不需畫垂直線
+* 單位應排於欄位上端, 而非欄位內
+* 小於1 的小數, 小數點前應加上0
+* 小數點應上下對齊
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/22822a8d-ab0c-4745-a05c-e30a8846adc6)
+
+### 項目型列舉
+* 使用 itemize 環境, \item 表現每一點
+* 自動縮排, 不需另外空行
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/66d2ff0e-bd14-4e40-be3b-d0a4c2b06807)
+
+```
+$f$ 在 $a$ 點連續, 若:
+\begin{itemize}
+\item $\lim {x\to a} f(x)$ 存在
+\item $f(a)$ 有定義
+\item $\lim {x\to a} f(x)=f(a)$
+\end{itemize}
+```
+
+### 數字型列舉
+* 使用 enumerate 環境, \item 表現每一點
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/3b4e295c-0086-45e8-8048-ffc571167a84)
+
+```
+$f$ 在 $a$ 點連續, 若:
+\begin{enumerate}
+\item $\lim {x\to a} f(x)$ 存在
+\item $f(a)$ 有定義
+\item $\lim {x\to a} f(x)=f(a)$
+\end{enumerate}
+```
+
+
+### 敘述型列舉
+* 使用 `description` 環境, \item[· · · ] 表現每一點
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/8a71e6b2-09b9-4c55-87f9-2cf2a7586692)
+
+```
+$f$ 在 $a$ 點連續, 若:
+\begin{description}
+\item[第一] $\lim {x\to a} f(x)$ 存在
+\item[第二] $f(a)$ 有定義
+\item[第三] $\lim {x\to a} f(x)=f(a)$
+\end{description}
+```
+
+### 常用的長度單位
+
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/8f65b0bc-b006-422f-aec0-3c9ec3a19e70)
+
+### 水平空白
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/457ecfb7-a529-4f5f-bccb-c4830671a324)
+
+### 垂直空白
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/5cfbb76b-27af-4994-8067-fe8a891bf2ac)
+
+### 調整行距
+* 一般設定: 在 全文設定區 輸入
+
+```
+\linespread{1.2} #行距設為原本的 1.2 倍
+\setlength{\parskip}{15pt} #段落間距設為 15 點
+\setlength{\parindent}{0cm} #每段首行縮排設為 0
+```
+* 特殊調整: 於 強迫換行 後加上 [長度] , 如 \\[4mm]
+### 居中與靠邊
+
+```
+\begin{center}· · · \end{center} #環境內文字置中
+\begin{flushleft}· · · \end{flushleft} #環境內文字靠左
+\begin{flushright}· · · \end{flushright} #環境內文字靠右
+```
 
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
-
-
-
-
 
 ## ![Generic badge](https://img.shields.io/badge/%E5%9C%96%E6%A1%88-XiangYun%E7%A8%8B%E5%BC%8F-purple?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIzLjk5OSAxMi40NjVhOS42MDEgOS42MDEgMCAwIDEtMTkuMjAzIDBoMS4wN2E4LjUzIDguNTMgMCAxIDAgOC41MzMtOC41M3YtMS4wN0E5LjYgOS42IDAgMCAxIDI0IDEyLjQ2M3ptLTkuNi0zLjJhMy4yIDMuMiAwIDEgMCAzLjIgMy4yIDMuMiAzLjIgMCAwIDAtMy4yLTMuMnptLTIgMC0uNi02LjY3Mi0yLjQ2MiAxLjkyLTEuNDYtMS40NGE0LjY3IDQuNjcgMCAwIDAtNS42Mi0uMzdsLTIuMDIgMS4zYS41NC41NCAwIDAgMC0uMTUuNzQuNTQuNTQgMCAwIDAgLjc0LjE1bDItMS4zMWEzLjY0IDMuNjQgMCAwIDEgNC4yOS4yMmwxLjM3IDEuMzgtMi4yOSAxLjgyMXoiLz48L3N2Zz4=)`完了`
 ## Reference
