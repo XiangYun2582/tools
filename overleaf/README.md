@@ -166,51 +166,51 @@ e \ln \log \lim
   ```
 
 ### 數式排版方法
-  * 上下標:` 上標用 ^ , 下標用 , 上下標長於1 字時以 {· · · } 區隔`
-  > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/9f0e97da-1762-4233-8783-1fc4d513ae4b)
+* 上下標:` 上標用 ^ , 下標用 , 上下標長於1 字時以 {· · · } 區隔`
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/9f0e97da-1762-4233-8783-1fc4d513ae4b)
 
-   ```latex
+```latex
    x^2
    y_1
    p^i_t
    f_X(x)
    A_{i,j}
    e^{\lambda(e^t-1)}
-   ```
+```
  ### 分式
-    * 簡單分式直接以 `· · · /· · · `表現, 建議用於隨文模式
-    * 較複雜的分式以`\frac{· · · }{· · · } `表現, 建議用於展示數式
-    * 簡化指令:`{· · · \over· · · }`
-   ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/07964fd0-e565-492d-aa01-c7a9302629dd)
+* 簡單分式直接以 `· · · /· · · `表現, 建議用於隨文模式
+* 較複雜的分式以`\frac{· · · }{· · · } `表現, 建議用於展示數式
+* 簡化指令:`{· · · \over· · · }`
+![圖片](https://github.com/XiangYun2582/tools/assets/110577553/07964fd0-e565-492d-aa01-c7a9302629dd)
    
-    ```diff
+```diff
     ! If $\Delta x 1/\Delta m>0$,
     ! $ \frac{x+y}{1+\frac{y}{x+y}} $
     ! \[ \frac{x+y}{1+\frac{y}{x+y}} \]
-    ```
+```
   
   ### 括號
-    * 數式高度較高時, 使用原本的括號可能不盡理想, 此時可使用`\left(· · · \right) `指令, 括號大小會自動調整
-    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/2c84098e-f516-4813-ae42-5e749a8a50dc)
+* 數式高度較高時, 使用原本的括號可能不盡理想, 此時可使用`\left(· · · \right) `指令, 括號大小會自動調整
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/2c84098e-f516-4813-ae42-5e749a8a50dc)
     
-   ```
+```
    \[ (\frac{x}{y}) \left(\frac{du}{dv}\right) \]
-   ```
+```
 
  ### 根號
-    * 平方根指令為 `\sqrt{· · · }`
-    * 三次方根指令為 `\sqrt[3]{· · · }`, 其餘類推
+* 平方根指令為 `\sqrt{· · · }`
+* 三次方根指令為 `\sqrt[3]{· · · }`, 其餘類推
     
-    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/18839989-24bf-47ef-9301-05ab4e7e3738)
-    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/52e10627-5021-409e-9a94-8926c79f7908)
-    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fbfaee92-111f-4351-aab5-560ac78dcec3) 
-    > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/e0b06d46-5ebb-433f-9975-6eb9de9a9104)  
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/18839989-24bf-47ef-9301-05ab4e7e3738)
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/52e10627-5021-409e-9a94-8926c79f7908)
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fbfaee92-111f-4351-aab5-560ac78dcec3) 
+> ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/e0b06d46-5ebb-433f-9975-6eb9de9a9104)  
 
     
-   ```
+```
    $\sqrt{x^2+y^2}$
    $\sqrt[4]{a^2+b^2+2\sqrt{ab}}$
-   ```
+```
 
 
 
