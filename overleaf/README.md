@@ -107,7 +107,7 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 ! 常用自然記得, 不知道或忘了再查亦可
 ! 無需指令, 可直接鍵入的符號:'+ − = < > / : ! ′ | [ ] ( )'
 ```
-* 常用的希臘字母符號
+### 常用的希臘字母符號
 > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/fd7724d1-5016-43e4-ba0b-25a6372b2fa1)
 
 ```
@@ -115,7 +115,7 @@ Latex無法自行處理圖片檔案，但是可以加入資料包\usepackage{gra
 e \ln \log \lim
 \max \min \sum \int
 ```
-* 常用的函數符號
+### 常用的函數符號
 > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/93037533-a383-4c77-9c39-8022650bb947)
 
 ```
@@ -136,7 +136,7 @@ e \ln \log \lim
 \leftrightarrow \longleftarrow
 ```
 
-* 常用的相對關係符號
+### 常用的相對關係符號
 > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/45f90825-e799-4364-8c27-289d60e70d82)
 > 欲表現含等號的不等號, 請在名稱後加上 eq
 > 欲表現負的相關符號, 請在名稱前加上 n 或 not, 如
@@ -149,7 +149,7 @@ e \ln \log \lim
 \supset  \subset \supseteq \subseteq
 ```
 
-* 常用的運算符號及其他符號
+### 常用的運算符號及其他符號
 > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/ae25f0c4-39ad-4c36-a7d1-c9f6c7c0ebe3)
   ```
   \pm \times \cdot \div
@@ -157,7 +157,7 @@ e \ln \log \lim
   \emptyset \partial \infty \mathbb{R}
   ```
 
-* 數式排版方法
+### 數式排版方法
   * 上下標:` 上標用 ^ , 下標用 , 上下標長於1 字時以 {· · · } 區隔`
   > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/9f0e97da-1762-4233-8783-1fc4d513ae4b)
 
@@ -169,7 +169,7 @@ e \ln \log \lim
    A_{i,j}
    e^{\lambda(e^t-1)}
    ```
-  * 分式
+ ### 分式
     * 簡單分式直接以 `· · · /· · · `表現, 建議用於隨文模式
     * 較複雜的分式以`\frac{· · · }{· · · } `表現, 建議用於展示數式
     * 簡化指令:`{· · · \over· · · }`
@@ -180,14 +180,14 @@ e \ln \log \lim
     ! \[ \frac{x+y}{1+\frac{y}{x+y}} \]
     ```
   
-  * 括號
+  ### 括號
     * 數式高度較高時, 使用原本的括號可能不盡理想, 此時可使用`\left(· · · \right) `指令, 括號大小會自動調整
     > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/2c84098e-f516-4813-ae42-5e749a8a50dc)
     
    ```
    \[ (\frac{x}{y}) \left(\frac{du}{dv}\right) \]
    ```
-  * 根號
+ ### 根號
     * 平方根指令為 `\sqrt{· · · }`
     * 三次方根指令為 `\sqrt[3]{· · · }`, 其餘類推
     > ![圖片](https://github.com/XiangYun2582/tools/assets/110577553/18839989-24bf-47ef-9301-05ab4e7e3738)
