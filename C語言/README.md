@@ -1,4 +1,7 @@
 # ![Generic badge](https://badgen.net/badge/icon/C%E8%AA%9E%E8%A8%80?icon=visualstudio&label&logo=appveyor.svg)
+----
+
+### 初步認識
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `為甚麼我要學C語言`
 ```diff
 ! 1.希望可以控制電腦
