@@ -43,9 +43,21 @@
     * 優點:多平台、自由軟體(無版權)
     * 缺點:好像沒有
    
-![image](https://github.com/XiangYun2582/tools/assets/110577553/c15a2878-2d6e-414d-8885-c5f04ecdefe4
+![image](https://github.com/XiangYun2582/tools/assets/110577553/c15a2878-2d6e-414d-8885-c5f04ecdefe4)
+
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `編譯器差異`
-  * 從程式碼產生機器碼的效率
+  * 效率
+    * 從程式碼產生機器碼的效率(寫好run等多久)
+    * 機器碼執行起來的效率(不同的編譯器不一定會編譯成一模一樣的機器碼)*C語言只有規定語言行為
+  * 相容性
+    * 編輯器再標準外的自訂擴充功能(非標準內的功能盡量不要用，綁死)`似瀏覽器`
+  * 行為一致性
+    * **實作定義(Implementation-defined)行為**
+      * 不同版本或是使用不同設定的同款編譯器可能產生不一樣的行為**可怕**
+      * 允許原因:彈性、效率、不同廠牌的感覺(差異性 32bit 64 bit)
+
+
+
 
 
 
