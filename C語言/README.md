@@ -2,6 +2,7 @@
 ### 跳到另一個主題  🐇
 * [初步認識](#初步認識)
 * [整合開發環境介紹](#整合開發環境介紹)
+* [整合開發環境安裝](#整合開發環境安裝)
 ----
 
 ### 初步認識
@@ -102,6 +103,12 @@
 
 ### 整合開發環境安裝
 **開始走路囉**
+![image](https://github.com/XiangYun2582/tools/blob/main/C%E8%AA%9E%E8%A8%80/Klee-(Genshin-Impact)-Genshin-Impact-%D0%98%D0%B3%D1%80%D1%8B-seseren-6248683.gif)
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `Code::Block`
+
+
+
+
 
 
 
