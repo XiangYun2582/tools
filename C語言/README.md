@@ -1,4 +1,6 @@
 # ![Generic badge](https://badgen.net/badge/icon/C%E8%AA%9E%E8%A8%80?icon=visualstudio&label&logo=appveyor.svg)
+https://www.youtube.com/watch?v=IeCol4m8Y3A&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=12&ab_channel=FeisStudio
+下次
 ### 跳到另一個主題  🐇
 * [初步認識](#初步認識)
 * [整合開發環境介紹](#整合開發環境介紹)
