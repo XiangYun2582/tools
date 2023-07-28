@@ -85,14 +85,18 @@
     * 缺點:業界使用很低
   * Code::Block
     * 優點:多平台
+    
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/9a786c9d-f97f-41e7-ac68-790cbd59223e)
+
 **使用哪一個好、業界選擇、影片老師建議都不知道就使用Dev C++或是Code::Block**
 
 ```diff
 - 自己查的調查Dev C++ 似乎不看好
 ! Dev C++ 原開發者早在 2006 年就公開宣佈不再維護該專案，雖然後來有人接手開發，但距離上一個穩定版也已經三年了。C++ 是一個持續進化中的程式語言，Dev-C++ 是一個幾乎停滯的專案
 ```
+
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/b47b29cf-c483-48ee-9043-bafa21bbd5c5)
+
 * 自行評估我也不知道是不是事實: [來源](https://samtsai.org/2018/10/02/222-please-dont-recommend-dev-cpp/)
 
 
