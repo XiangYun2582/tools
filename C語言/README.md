@@ -104,8 +104,27 @@
 ### 整合開發環境安裝
 **開始走路囉**
 ![image](https://github.com/XiangYun2582/tools/blob/main/C%E8%AA%9E%E8%A8%80/Klee-(Genshin-Impact)-Genshin-Impact-%D0%98%D0%B3%D1%80%D1%8B-seseren-6248683.gif)
-* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `Code::Block`
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `為甚麼選擇Code::Block`
+  * 理由:對初學者友善`容易安裝`、`很快就可以寫出一個小程式`
+  * 優勢:
+    * 支援多個作業系統(windows/Linus/macOS)
+    * 開源專案
+    * 可以裝在隨身碟
+> 安裝網站:https://www.codeblocks.org/
+*第一步
+![image](https://github.com/XiangYun2582/tools/assets/110577553/a1fa1fd4-e16f-492e-969d-333c70f6fb64)
+*第二步
+![image](https://github.com/XiangYun2582/tools/assets/110577553/adeda9e5-28cc-4ae4-983f-a2df02eb821f)
+* 用最簡單就好啦
+![image](https://github.com/XiangYun2582/tools/assets/110577553/f9501410-5d7a-409e-8afb-cfc1a4c4149d)
 
+* 先來試試看Code::Block
+![image](https://github.com/XiangYun2582/tools/assets/110577553/5b98a862-7ed5-4d4b-ba8a-3f38cf0fc710)
+* 用怕點下去就對了
+![image](https://github.com/XiangYun2582/tools/assets/110577553/5750e210-7b8e-48f3-82ae-0069efa4def1)
+* 關閉她(注意案Yes和打勾勾以後就不會煩你)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/7831c0c6-5e11-4258-97db-955759f5ba48)
 
 
 
