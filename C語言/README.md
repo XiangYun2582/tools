@@ -56,8 +56,13 @@
       * 不同版本或是使用不同設定的同款編譯器可能產生不一樣的行為**可怕**
       * 允許原因:彈性、效率、不同廠牌的感覺(差異性 32bit 64 bit)
 
+### 整合開發環境介紹
+![image](https://github.com/XiangYun2582/tools/assets/110577553/aafc91ae-b627-4c9c-8388-e33ee95b8713)
 
-
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `編譯器差異`
+```diff
+! 我是很菜很菜的初學者
+```
 
 
 
