@@ -59,11 +59,31 @@
 ### 整合開發環境介紹
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/aafc91ae-b627-4c9c-8388-e33ee95b8713)
 
-* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `編譯器差異`
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `甚麼是開發環境`
 ```diff
-! 我是很菜很菜的初學者
+! 首先我是很菜很菜的初學者
+! 編譯器不會去使用太複雜
+! 可能會不斷去做編譯修改
+@整合開發 解決--圖形化介面GUI@
 ```
-
+  * 簡稱IDE輔助程式開發人員開發軟體的軟體
+  * 通常是圖形化界面(GUI)，主要包含:`提示錯誤`、`其他的選擇類似studio`
+    * 文字編輯器
+    * 編譯器(可能內附或是額外安裝)
+    * 自動建置工具
+    * 此外可能包含除厝器、視覺化設計界面和版本控制工具等等協助開發軟體的工具
+![image](https://github.com/XiangYun2582/tools/assets/110577553/089284c8-3778-4db3-9092-e472cb275057)
+* 種類
+  * Visual C++:
+    * 優點:功能強大眼花撩亂、win開發建議
+    * 缺點:啟用專案不方便、初學花費步驟多
+  * Dev C++
+    * 優點:早期自由軟體、友善、執行檔簡單、幫助學習
+    * 缺點:業界使用很低
+  * Code::Block
+    * 優點:多平台
+![image](https://github.com/XiangYun2582/tools/assets/110577553/9a786c9d-f97f-41e7-ac68-790cbd59223e)
+**使用哪一個好、業界選擇、影片老師建議都不知道就使用Dev C++或是Code::Block**
 
 
 * ![Generic badge](https://img.shields.io/badge/%E5%9C%96%E6%A1%88-XiangYun%E7%A8%8B%E5%BC%8F-purple?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIzLjk5OSAxMi40NjVhOS42MDEgOS42MDEgMCAwIDEtMTkuMjAzIDBoMS4wN2E4LjUzIDguNTMgMCAxIDAgOC41MzMtOC41M3YtMS4wN0E5LjYgOS42IDAgMCAxIDI0IDEyLjQ2M3ptLTkuNi0zLjJhMy4yIDMuMiAwIDEgMCAzLjIgMy4yIDMuMiAzLjIgMCAwIDAtMy4yLTMuMnptLTIgMC0uNi02LjY3Mi0yLjQ2MiAxLjkyLTEuNDYtMS40NGE0LjY3IDQuNjcgMCAwIDAtNS42Mi0uMzdsLTIuMDIgMS4zYS41NC41NCAwIDAgMC0uMTUuNzQuNTQuNTQgMCAwIDAgLjc0LjE1bDItMS4zMWEzLjY0IDMuNjQgMCAwIDEgNC4yOS4yMmwxLjM3IDEuMzgtMi4yOSAxLjgyMXoiLz48L3N2Zz4=)
