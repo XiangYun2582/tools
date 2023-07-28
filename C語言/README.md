@@ -112,24 +112,27 @@
     * 可以裝在隨身碟
 > 安裝網站:https://www.codeblocks.org/
 ----
-> * 第一步
+> * 第一步  
 
-![image](https://github.com/XiangYun2582/tools/assets/110577553/a1fa1fd4-e16f-492e-969d-333c70f6fb64)
+![image](https://github.com/XiangYun2582/tools/assets/110577553/a1fa1fd4-e16f-492e-969d-333c70f6fb64)  
 
-> * 第二步
+> * 第二步  
 
-![image](https://github.com/XiangYun2582/tools/assets/110577553/adeda9e5-28cc-4ae4-983f-a2df02eb821f)
+![image](https://github.com/XiangYun2582/tools/assets/110577553/adeda9e5-28cc-4ae4-983f-a2df02eb821f)  
 
->   * 用最簡單就好啦
+>   * 用最簡單就好啦  
 
-![image](https://github.com/XiangYun2582/tools/assets/110577553/f9501410-5d7a-409e-8afb-cfc1a4c4149d)
+![image](https://github.com/XiangYun2582/tools/assets/110577553/f9501410-5d7a-409e-8afb-cfc1a4c4149d)  
 
 ----
 * 先來試試看Code::Block
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/5b98a862-7ed5-4d4b-ba8a-3f38cf0fc710)
+
 * 用怕點下去就對了
-![image](https://github.com/XiangYun2582/tools/assets/110577553/5750e210-7b8e-48f3-82ae-0069efa4def1)
-* 關閉她(注意案Yes和打勾勾以後就不會煩你)
+  
+![image](https://github.com/XiangYun2582/tools/assets/110577553/5750e210-7b8e-48f3-82ae-0069efa4def1)  
+
+* 關閉她(注意案Yes和打勾勾以後就不會煩你)  
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/7831c0c6-5e11-4258-97db-955759f5ba48)
 
