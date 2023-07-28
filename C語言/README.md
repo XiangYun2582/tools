@@ -3,6 +3,8 @@
 * [初步認識](#初步認識)
 * [整合開發環境介紹](#整合開發環境介紹)
 * [整合開發環境安裝](#整合開發環境安裝)
+  * [建立一個專案](#建立一個專案)
+  * [一些小設定](#一些小設定)
 ----
 
 ### 初步認識
@@ -104,6 +106,7 @@
 ### 整合開發環境安裝
 **開始走路囉**
 ![image](https://github.com/XiangYun2582/tools/blob/main/C%E8%AA%9E%E8%A8%80/Klee-(Genshin-Impact)-Genshin-Impact-%D0%98%D0%B3%D1%80%D1%8B-seseren-6248683.gif)
+
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `為甚麼選擇Code::Block`
   * 理由:對初學者友善`容易安裝`、`很快就可以寫出一個小程式`
   * 優勢:
@@ -126,7 +129,8 @@
 
 ----
 * 先來試試看Code::Block
-![image](https://github.com/XiangYun2582/tools/assets/110577553/5b98a862-7ed5-4d4b-ba8a-3f38cf0fc710)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/5b98a862-7ed5-4d4b-ba8a-3f38cf0fc710)  
 
 * 用怕點下去就對了
   
@@ -139,6 +143,7 @@
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/35ac0e09-5595-4a36-a938-b36cae61fd98)
 
+#### 建立一個專案
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `建立一個專案`
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/7e99a262-378e-4902-8d35-39ecded4e1fc)
@@ -150,9 +155,29 @@
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/bfc3e6a4-3cbc-4692-b8bf-13c6cea34a83)  
 
-* 執行專案
+* 執行專案 `F9`
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/c75a3d36-9218-4ab8-ba21-8df29f2fd92c)  
+
+* 用記事本看
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/9d027124-813c-4706-81a9-a9540040e863)  
+
+```diff
++ 顏色可以幫助判斷
+```
+
+***成功的結果**
+![image](https://github.com/XiangYun2582/tools/assets/110577553/897d5082-9bc0-4dd4-b5ca-302104284911)
+
+#### 一些小設定
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `Code::Block設定變更好用`
+
+
+
+
+
+
 
 
 
