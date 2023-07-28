@@ -141,8 +141,6 @@
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/7831c0c6-5e11-4258-97db-955759f5ba48)
 
 
-![image](https://github.com/XiangYun2582/tools/assets/110577553/35ac0e09-5595-4a36-a938-b36cae61fd98)
-
 #### 建立一個專案
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `建立一個專案`
 
