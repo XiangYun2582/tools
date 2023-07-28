@@ -1,4 +1,7 @@
 # ![Generic badge](https://badgen.net/badge/icon/C%E8%AA%9E%E8%A8%80?icon=visualstudio&label&logo=appveyor.svg)
+### 跳到另一個主題  🐇
+* [初步認識](#初步認識)
+* [整合開發環境介紹](#整合開發環境介紹)
 ----
 
 ### 初步認識
