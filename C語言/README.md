@@ -12,6 +12,7 @@
   * [求數字和](#求數字和)
   * [程式碼工整秘訣-可讀性](#可讀性)
   * [數值交換](#數值交換)
+> 初學者建議:[連結](https://www.youtube.com/watch?v=QROGWhR97G4&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=20&ab_channel=FeisStudio)
 ----
 > 前面視為基礎訓練
 
@@ -416,6 +417,7 @@ int main(){
 #### 數值交換
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `兩個數字`
 
+* 暫存作法
 ```c
 #include <stdio.h>
 int main(){
@@ -438,6 +440,7 @@ int main(){
 ```
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/cd95483a-527b-4b92-8e8c-852a450369dc)
 
+* 另一個做法
 ```c
 #include <stdio.h>
 int main()
@@ -461,8 +464,8 @@ int main()
 ```
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/20f891fa-8631-4cb0-9722-a431e955279a)
 
-
-
+----
+## 正式進入章節
 
 
 
