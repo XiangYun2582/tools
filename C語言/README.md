@@ -359,6 +359,33 @@ int main(){
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/66b213da-89b7-4bb6-802c-a16b747e344f)
 
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `三個數字`
+* 簡化`類似迭代，省記憶體`
+```c
+#include <stdio.h>
+int main(){
+    int integer,sum;
+    //印這個字串
+    printf("Please enter the first integer: ");
+    //scanf表示從鍵盤讀入資料，%d表示十進位，&是取指運算子
+    scanf("%d",&integer);
+    sum = integer;
+    printf("Please enter the second integer: ");
+    scanf("%d",&integer);
+    sum = sum + integer;
+    printf("Please enter the third integer: ");
+    scanf("%d",&integer);
+    sum = sum + integer;
+    printf("Sum is %d.\n",sum);
+    return 0;
+}
+```
+
+> 問題:
+> 1.省記憶體，但程式的效率並沒有比較好，占用ˋ中央處理器ˋ比較多(指令)。
+> 2.占用ˋ記憶體ˋ，可以比較快的效率。(前提是不要用完記憶體，不然就怠速)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/d517c10c-a01a-45f8-889f-e0ca2e63f55d)
+
 
 
 
