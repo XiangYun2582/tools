@@ -311,6 +311,37 @@ int main(){
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/4d54d3b3-4ca6-4a9a-8476-623dbc243e36)
 
+#### 求數字和
+
+* 變數型態(補充)
+
+| 型態  | 中文意思 |英文字義|可儲存的資料|
+| ------------- |:-------------:|:-------------:|:-------------:|
+| `int`    | 整數    |Integer|100、-5、1246 ...|
+| `float`  | 浮點數(小數)   |floating point|3.14159、4.3、-1.1 ...|
+| `char`| 字元(半形字) |Character|'a'、'R'、'1'、'@'、'*' ...|
+| `string`| 字串(文句)|String|"Hello"、"^_^"、"Rock!" ...|
+| `bool`| 布林(是非)|boolean|true、false|
+
+* 簡單整數位加總
+```c
+#include <stdio.h>
+int main(){
+    int integer1;
+    int integer2;
+    int sum;
+    printf("Please enter the first integer: ");
+    scanf("%d",&integer1);
+    printf("Please enter the second integer: ");
+    scanf("%d",&integer2);
+    sum = integer1 + integer2;
+    printf("Sum is %d.\n",sum);
+    return;
+}
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/eef4850e-2e02-470d-ada4-718b06d96e23)
+
+
 
 
 
