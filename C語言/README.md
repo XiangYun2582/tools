@@ -8,6 +8,7 @@
   * [一些小設定](#一些小設定)
   * [編譯器的錯誤訊息](#編譯器的錯誤訊息)
   * [程式讀取的原理](#程式讀取的原理)
+  * [字元跳脫](#字元跳脫)
 ----
 >前面視為基礎訓練
 
@@ -272,6 +273,50 @@ C語言的程式進入點(程式開始執行的位置)，跟一些程式的運�
 |空字元(NULL)|\0|
 
 * 參考資料: [連結](https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp02/escape_character.html)
+
+* 換行\n 影片老師給的小功課
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/4c4b2d3f-a353-4154-ad16-8cb91e3ab612)
+
+* 跳脫序列的作法:反斜線`\`
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/b0e34893-152c-4749-9740-70af59986eb8)
+
+* 想要印反斜線，多打一個即可。
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/768b78ac-fc7b-48c1-a16b-bede0853edaf)
+
+```c
+#include <stdio.h>
+
+int main(){
+    printf("Hello world!\n");
+    printf("H     H     A\nH     H    A A\nHHHHHHH   A   A\nH     H  AAAAAAA\nH     H  A     A");
+    return 0;
+}
+
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/bcd16983-ca3e-4ccf-9fc2-1fb9bd5019db)
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `簡單的文字圖形`
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/d33622e4-b426-49e3-9e33-0c320ee631aa)
+
+* 程式碼下面不一定效率比上面好，即使寫下面的程式碼比較快但可讀性很差，也比較不好改所以比較後上面比較好**對於初學者(較容易維護變更)**
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/80f49bcf-96f7-4e76-ab09-c0027d3f7b9c)
+
+* 折衷作法?
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/4d54d3b3-4ca6-4a9a-8476-623dbc243e36)
+
+
+
+
+
+
+
 
 
 
