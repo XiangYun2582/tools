@@ -314,6 +314,7 @@ int main(){
 
 #### 求數字和
 
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `兩個數字`
 * 變數型態(補充)
 
 | 型態  | 中文意思 |英文字義|可儲存的資料|
@@ -323,15 +324,25 @@ int main(){
 | `char`| 字元(半形字) |Character|'a'、'R'、'1'、'@'、'*' ...|
 | `string`| 字串(文句)|String|"Hello"、"^_^"、"Rock!" ...|
 | `bool`| 布林(是非)|boolean|true、false|
+  * 複雜
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/0d49384c-664f-4bb5-ba8e-80536abfa372)
+
+  * 參考資料: [連結](https://openhome.cc/Gossip/CGossip/Datatype.html)
 
 * 簡單整數位加總
+  * 注意:如果要使用某變數要宣告，電腦就會保留(儲存在記憶體或空間)起來➡️它就是整數之類。
 ```c
 #include <stdio.h>
 int main(){
+    //宣告(定義)integer1是整數，也就是我們熟悉的變數
+    //一共存了三個空間
     int integer1;
     int integer2;
     int sum;
+    //印這個字串
     printf("Please enter the first integer: ");
+    //scanf表示從鍵盤讀入資料，%d表示十進位，&是取指運算子
     scanf("%d",&integer1);
     printf("Please enter the second integer: ");
     scanf("%d",&integer2);
@@ -342,8 +353,12 @@ int main(){
 ```
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/eef4850e-2e02-470d-ada4-718b06d96e23)
 
+* 類似跳脫概念
 
+![image](https://github.com/XiangYun2582/tools/assets/110577553/754e4074-c190-400a-8367-9b845c018b84)
+![image](https://github.com/XiangYun2582/tools/assets/110577553/66b213da-89b7-4bb6-802c-a16b747e344f)
 
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `三個數字`
 
 
 
@@ -355,4 +370,6 @@ int main(){
 * ![Generic badge](https://img.shields.io/badge/%E5%9C%96%E6%A1%88-XiangYun%E7%A8%8B%E5%BC%8F-purple?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTIzLjk5OSAxMi40NjVhOS42MDEgOS42MDEgMCAwIDEtMTkuMjAzIDBoMS4wN2E4LjUzIDguNTMgMCAxIDAgOC41MzMtOC41M3YtMS4wN0E5LjYgOS42IDAgMCAxIDI0IDEyLjQ2M3ptLTkuNi0zLjJhMy4yIDMuMiAwIDEgMCAzLjIgMy4yIDMuMiAzLjIgMCAwIDAtMy4yLTMuMnptLTIgMC0uNi02LjY3Mi0yLjQ2MiAxLjkyLTEuNDYtMS40NGE0LjY3IDQuNjcgMCAwIDAtNS42Mi0uMzdsLTIuMDIgMS4zYS41NC41NCAwIDAgMC0uMTUuNzQuNTQuNTQgMCAwIDAgLjc0LjE1bDItMS4zMWEzLjY0IDMuNjQgMCAwIDEgNC4yOS4yMmwxLjM3IDEuMzgtMi4yOSAxLjgyMXoiLz48L3N2Zz4=)
 * 我學習的對象:https://www.youtube.com/watch?v=iZ9W2nPKIwU&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=2&ab_channel=FeisStudio
 * 無關的小工具[Generic badge](https://gist.github.com/rxaviers/7360908)
-* 參考資料:[百科全書](http://kaiching.org/pydoing/c.html)
+* 參考資料:[百科全書1](http://kaiching.org/pydoing/c.html)
+* 參考資料:[百科全書2](https://www.csie.ntu.edu.tw/~b98902112/cpp_and_algo/cpp/variable_type_and_declare.html)
+* 參考資料:[百科全書3](https://openhome.cc/Gossip/CGossip/)
