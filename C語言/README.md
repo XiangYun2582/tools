@@ -11,7 +11,7 @@
   * [字元跳脫](#字元跳脫)
   * [求數字和](#求數字和)
 ----
->前面視為基礎訓練
+> 前面視為基礎訓練
 
 * 章節
 
@@ -315,7 +315,7 @@ int main(){
 #### 求數字和
 
 * ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `兩個數字`
-* 變數型態(補充)
+  * 變數型態(補充)
 
 | 型態  | 中文意思 |英文字義|可儲存的資料|
 | ------------- |:-------------:|:-------------:|:-------------:|
@@ -330,8 +330,8 @@ int main(){
 
   * 參考資料: [連結](https://openhome.cc/Gossip/CGossip/Datatype.html)
 
-* 簡單整數位加總
-  * 注意:如果要使用某變數要宣告，電腦就會保留(儲存在記憶體或空間)起來➡️它就是整數之類。
+  * 簡單整數位加總
+    * 注意:如果要使用某變數要宣告，電腦就會保留(儲存在記憶體或空間)起來➡️它就是整數之類。
 ```c
 #include <stdio.h>
 int main(){
@@ -353,7 +353,7 @@ int main(){
 ```
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/eef4850e-2e02-470d-ada4-718b06d96e23)
 
-* 類似跳脫概念
+  * 類似跳脫概念
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/754e4074-c190-400a-8367-9b845c018b84)
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/66b213da-89b7-4bb6-802c-a16b747e344f)
