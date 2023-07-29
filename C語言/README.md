@@ -1,6 +1,5 @@
 # ![Generic badge](https://badgen.net/badge/icon/C%E8%AA%9E%E8%A8%80?icon=visualstudio&label&logo=appveyor.svg)
-https://www.youtube.com/watch?v=IeCol4m8Y3A&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=12&ab_channel=FeisStudio
-下次
+
 ### 跳到另一個主題  🐇
 * [初步認識](#初步認識)
 * [整合開發環境介紹](#整合開發環境介紹)
@@ -193,6 +192,60 @@ https://www.youtube.com/watch?v=IeCol4m8Y3A&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2
   * cmd太小  
     
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/d1a940f2-9867-4554-b3a0-6832627f3748)  
+
+#### 編譯器的錯誤訊息
+
+* 會有紅紅的
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/bebf152e-96f4-4803-b5ca-3ccd523efb08)
+
+* 或是看log `F2`
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/6dda3021-18d5-4d33-a924-0a4233d13a55)
+
+* 就可以清楚了解發生什麼事 `紅色可能是那一行或是上一行`
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/92c386c3-afe0-4009-ba5a-e4965dc3361c)
+
+#### 程式讀取的原理
+
+C語言的程式進入點(程式開始執行的位置)，跟一些程式的運作模式不太一樣，並不是從頭一行一行讀。
+是從接在main字後面的左括號開始`{`，所以從第四行開始。
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/f0287d17-b315-4859-8356-54ce5f22b3d2)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/0912801a-7efe-4d4f-a2ce-9c01035047a5)
+
+由此開始就要開始分號就像是文章的時候一樣(一個句子的結束)，而句子一樣會有先後。
+
+* `{}`一對裡面東東我們稱之為區塊，也類似我們文章的段落。
+* printf 其實就是一個函式，其實很類似R程式或Python裡的`print`。
+  * 字串要用`""`包住，要跟一班程式碼做一個區別，跟之前學的無異。
+  
+![image](https://github.com/XiangYun2582/tools/assets/110577553/4a9ebdb1-ea2f-4b47-aff0-aecbbcb6725b)
+
+* 重點來了，由於`printf`是另外一個事先寫好的程式碼，所以要先用
+```c
+#include <stdio.h>
+```
+的方式，事先提出stdio.h檔案在最前面讀進來，這其實很類似Python的import或是R的library。
+> stdio.h為C語言內建的檔案
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/3edd2451-0467-4cf9-a2f4-2ad01261265d)
+
+* C語言裡頭會有return的指令，程是正常結束在main裡面的指令。用途就是要回傳一個結果。
+  * 這裡是回傳0，代表成功。
+  
+![image](https://github.com/XiangYun2582/tools/assets/110577553/df82c8cb-7647-488c-a385-081feec70608)
+
+* 一些有趣的點，printf並不會換行，而是直接接續。
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/7d18cb10-054b-4884-a0fd-11ceeb7cd2f4)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/7afa9367-6c01-4588-a3d3-26c8b9ccc5ed)
+
+
+
 
 
 
