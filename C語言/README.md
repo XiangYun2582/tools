@@ -10,6 +10,7 @@
   * [程式讀取的原理](#程式讀取的原理)
   * [字元跳脫](#字元跳脫)
   * [求數字和](#求數字和)
+  * [可讀性](#可讀性)
 ----
 > 前面視為基礎訓練
 
@@ -140,7 +141,7 @@
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/adeda9e5-28cc-4ae4-983f-a2df02eb821f)  
 
 >   * 用最簡單就好啦  
-
+> **後來我後悔 其實全裝也沒有不好**
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/f9501410-5d7a-409e-8afb-cfc1a4c4149d)  
 
 ----
@@ -397,9 +398,19 @@ int main(){
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/d517c10c-a01a-45f8-889f-e0ca2e63f55d)
 
-
-
-
+#### 可讀性
+* 工整的程式碼?程式的寫作風格(困難、習慣、不是能跑就好)
+* 偷懶方法
+![image](https://github.com/XiangYun2582/tools/assets/110577553/02fe15d6-79ea-48fd-a22b-2c014816cab1)
+* 標準
+  *  每一句述句盡量單獨一行
+    * 分號(;)後要換行
+  * 每一個區塊的開頭跟結尾要換行
+    * 左大括號({)後與 又大括號(})前要換行
+  * 每句前面需有固定留白(縮排)
+    * 一般可以用2到8的空白字元或一個跳位符(Tab)縮排
+  * 複習: [連結](https://www.youtube.com/watch?v=N1G6pjBzKiY&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=18&ab_channel=FeisStudio)
+![image](https://github.com/XiangYun2582/tools/assets/110577553/ef481581-3777-4186-8df4-9d2f744e1f4f)
 
 
 
