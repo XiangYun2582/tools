@@ -11,6 +11,7 @@
   * [字元跳脫](#字元跳脫)
   * [求數字和](#求數字和)
   * [程式碼工整秘訣-可讀性](#可讀性)
+  * [數值交換](#數值交換)
 ----
 > 前面視為基礎訓練
 
@@ -411,6 +412,57 @@ int main(){
     * 一般可以用2到8的空白字元或一個跳位符(Tab)縮排
   * 複習: [連結](https://www.youtube.com/watch?v=N1G6pjBzKiY&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=18&ab_channel=FeisStudio)
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/ef481581-3777-4186-8df4-9d2f744e1f4f)
+
+#### 數值交換
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `兩個數字`
+
+```c
+#include <stdio.h>
+int main(){
+    int integer1,integer2;
+    printf("Please enter the first integer: ");
+    scanf("%d",&integer1);
+    printf("Please enter the second integer: ");
+    scanf("%d",&integer2);
+
+    //新增程式碼使integer1與integer2交換
+    //(integer1,integer2)=(integer2,integer1)但C語言無法這樣做[Error]
+    int temp = integer1;//備份起來
+    integer1 = integer2;
+    integer2 = temp;
+
+    printf("integer1: %d.\n",integer1);
+    printf("integer2: %d.\n",integer2);
+    return 0;
+}
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/cd95483a-527b-4b92-8e8c-852a450369dc)
+
+```c
+#include <stdio.h>
+int main()
+{
+    int integer1,integer2;
+    printf("Please enter the first integer: ");
+    scanf("%d",&integer1);
+    printf("Please enter the second integer: ");
+    scanf("%d",&integer2);
+
+    //新增程式碼使integer1與integer2交換
+    integer1 = integer1+integer2;
+    integer2 = integer1-integer2;
+    integer1 = integer1-integer2;
+
+    printf("integer1: %d.\n",integer1);
+    printf("integer2: %d.\n",integer2);
+    return 0;
+}
+
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/20f891fa-8631-4cb0-9722-a431e955279a)
+
+
+
 
 
 
