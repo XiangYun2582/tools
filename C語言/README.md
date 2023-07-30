@@ -457,7 +457,7 @@ int main()
     integer1 = integer1-integer2;
 
     printf("integer1: %d.\n",integer1);
-    printf("integer2: %d.\n",integer2);
+    printf("integer2: %d.\n",iteger2);
     return 0;
 }
 
@@ -498,15 +498,44 @@ int main()
 | 短整數{shorrt integer}| short int   |2* | 32    |
 | 整數(integer)    |int| 4* | 32    |
 | 長整數(long integer)   | long int| 4*  | 32     |
-| 字元(character)   | char| 4* |'3'   |
+| 字元(character)   | char| 1 |'3'   |
 | 單精度浮點數(sungle-precision floating point)   | float| 4* | 3.2    |
 | 倍精度浮點數(double-precision floating point)  | double | 8* |3.2    |
-| 無  | void |? | right bar     ||
+| 無  | void |? |    |
 
+> *號為實作定義，會變動。
 
+* 使用sizeof 看所佔記憶體空間大小
+  * 許多型別占用記憶體空間大小都是`實作定義`的。隨著使用的編譯器或是設定的不同而可能有不一樣。
+    * 例如:long int不一定是佔4個位元組大小，在某些64 bit的編譯器中，long int可能是佔8個位元或其他大小。
+  * 我們可以用sizeof 運算子去求出在你使用編譯器上某個值或是型別所佔記憶體大小(單位是位元組)。
+  
+```c
+printf("long int: %d.\n",sizeof(long int))
+//sizeof 會算出該數值或型別佔用幾個位元組
+```
 
+* 定義變數
+  * 變數名稱在使用前需要宣告或定義
+  * 變數定義時需要指定名稱與型別
+    * 資料型別 變數名稱
+    
+```c
+int num;
+```
 
+> 讀取未指定值的變數在部分情況下「未定義行為」，什麼都有可能。否則讀它沒有意義。
+    * 在定義時也可以直接指定初始值，我們稱初始化:
 
+```c
+int num=0;
+```
+
+> 為甚麼不直接給定?因為設為0，是一個代價。多給一個指令，類似計算機歸0。
+
+* 命名限制
+  * 在C語言要對名稱命名時有許多限制
+  * 名稱由英文大小寫字母、數字和底線所構成，數字不能為開頭，字母大小寫不同代表不同的名稱。
 
 
 
