@@ -710,14 +710,79 @@ scanf("%d" , &a);
 |u|十進位無號整數 |123|
 |u|十進位浮點數 |123.45|
 
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `不同資料型別間的轉換與字面常數`
+* 有誤，輸出小數。但只有整數
 
+```c
+#include <stdio.h>
+int main()
+{
+    int num1,num2,num3;
+    printf("Please enter the first integer: ");
+    scanf("%d",&num1);
+    printf("Please enter the second integer: ");
+    scanf("%d",&num2);
+    printf("Please enter the third integer: ");
+    scanf("%d",&num3);
+    int average = (num1 + num2 + num3) / 3;
+    printf("Average: %d\n",average);
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/976991f6-41fa-401f-8caa-33d10e42fce6)
+
+* 修正
+
+```c
+#include <stdio.h>
+int main()
+{
+    int num1,num2,num3;
+    printf("Please enter the first integer: ");
+    scanf("%d",&num1);
+    printf("Please enter the second integer: ");
+    scanf("%d",&num2);
+    printf("Please enter the third integer: ");
+    scanf("%d",&num3);
+    double average = (num1 + num2 + num3) / 3.;//改int和3
+    printf("Average: %f\n",average);//%d變成%f
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/2ea9d18b-19c9-4b5d-aa97-e23074e67d99)
+
+* 當我們做算術運算時，算出來的結果本身也必須要被儲存，也具有型別
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/3e01013e-0058-4ade-bcc2-0b5653244ce9)
+
+* 整數或浮點數做算術運算的結果
+  * 當兩個同樣整數或浮點數型別的值做算術運算時，其結果也是同樣的型別
+    * (int) + (int) ➡️ (int)
+    * (float) + (float) ➡️ (float)
+    * (double) + (double) ➡️ (double)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/86b02fe6-1cca-4cc0-853b-cb9e50601750)
+
+> 有趣的問題字面上的定義
+
+* 字面常數(literal constant)
+  * 在程式碼內可以使用字面常數來表示已知值的資料,而字面常數一樣具有型別:
+
+| 常見字面常數 | 型別 |
+| ------------- |:-------------:|
+|123|int,long int|
+|123.45|double|
+|123.45f|float |
 
 
 
 
 ----
-* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `兩個數字`
 
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `兩個數字`
 
 
 
