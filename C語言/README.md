@@ -548,8 +548,9 @@ int num=0;
   * 可表示的值範圍不同
     * 短整數(short int)與長整數(long int)
   * 可表示的精確度的不同
-    *單精度浮點數(float)與倍精數浮點數(double)
-
+    * 單精度浮點數(float)與倍精數浮點數(double)
+  * 有正負號的不同
+    * 有號整數(int)與無號整數(unsigned int)
 
 
 
