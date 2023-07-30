@@ -666,7 +666,7 @@ int num=0;
 |X|十六進位無號整數(大寫)|7B|
 
 * 例子:  
-☑️ a有號整數➡️無號整數去輸出`仍然不要這樣做，無號整數就該對應無號整數，反之*`  
+⭕ a有號整數➡️無號整數去輸出`仍然不要這樣做，無號整數就該對應無號整數，反之*`  
 ❌ b無號整數➡️有號整數
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/3ce915e3-08ec-40ba-b797-97032c099d2f)
@@ -775,6 +775,35 @@ int main()
 |123|int,long int|
 |123.45|double|
 |123.45f|float |
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/f7c28df9-87a0-4feb-b38d-ef9d92ebe341)
+
+* 隱性轉型
+`當整數轉型或浮點數時,如果在可表示的範圍裏面,會轉型成最接近的浮點數值。`
+![image](https://github.com/XiangYun2582/tools/assets/110577553/498d5c85-0170-48b2-a1ee-b1057c6b6079)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/fe930bbb-f3c1-410f-b5d2-cfbb028460bc)
+
+* 不一樣型別的值做算術運算的結果`(編譯器自動幫你做)`
+  * 當兩個不一樣整數或浮點數型別的值做算術運算時,如果可以算,會「隱性轉型」成範圍較大的型別並算出該型別的值:
+    * (int) + (float) ➡️ (float) + (float) ➡️ (float)
+    * (double) + (float) ➡️ (double) + (double) ➡️ (double)
+    * (int) + (double) ➡️ (double) + (double) ➡️ (double)
+* 隱性轉型與顯性轉型
+  * 隱性轉型是當運算有需要時自動發生的:
+
+  ```c
+  double average = (num1 t num2 + num3) / 3.;
+  ```
+  * 顯性轉型是當我們有需要時直接強加的:
+
+  ```c
+  double average = (num1 + num2 + num3) / (double) 3;
+  ```
+
+**不管是哪種博型,都會產生一個暫時的替代品。**
+
+
 
 
 
