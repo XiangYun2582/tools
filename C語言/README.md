@@ -803,6 +803,72 @@ int main()
 
 **不管是哪種博型,都會產生一個暫時的替代品。**
 
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `字元型別簡介`
+*儲存字元
+* 怎麼在電腦裡存文字資訊
+* 字長怎模樣?
+  * 字型
+  * 當我們需要輸出文字(與人互動)時才需要用到。
+* 是哪個字?
+  * 給每種字元一個獨一無二的編號
+    * 編碼(encoding)
+每個字母給個編號
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/6cd0dcb4-23b7-4daf-9765-c41a07c952df)
+
+* 字元型別是種「整數」型別:將儲存字元資訊的問題變成儲存整數的問題
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `字元編碼`
+
+* 一般英文鍵盤可以輸入的字元:
+  * 英文字母(分大小寫):52種
+  * 數字(0-9):10種
+  * 常用符號:20〜30種
+  * 總共不到256種
+* 我們只需要使用一個位元組(8bit)就可以表示。
+
+* 使用哪種編碼是「實作定義」
+  * 一般常用的編碼是 `ASCII`
+    * 美國資訊交换準代碼(American Standard Code Interchange)
+* 不管使用哪種編碼都必須要包含大小寫英文字母、數字及一些常見符號。
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/b6acf945-3b7c-4440-b82a-07fa7503a9d3)
+
+> 顏色淡了，其實打不出來，從32號開始，才是我們熟悉的。
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `使用char字元型別`
+
+* C語言主要有兩種字元型別:
+  * char
+  * wchar_t
+* 一般我們使用的是char 型別,而wchar_t型别則是使用在「寬字元」。
+  * char型別估用的記憶體大小為1個元組(8bit)。(256種)
+  * 中文字有幾種可能?(超過6萬，特殊的字 ex:gb簡體、big5繁體都可能有亂碼，不夠用)
+    * 使用「多個char」或者「wchar_t」表示
+
+* char型別的特色
+  * 常見的是使用ASCII編碼
+  * char型別占用1個位元組
+  * char型別是一種「整數」型別
+* char的字面常數
+  * 用一組單引號括住: `'A'` `'a'` `0` `'\n'`
+  * **用雙引號(")括住是「字串」**
+* printf與scanf的字元格式符
+  * 使用 %c
+
+```c
+#include <stdio.h>
+
+int main(){
+    //宣告定義一個叫做 ch的字元變数,並初始化為 A
+    char ch = 'A';
+    printf("%c\n",ch);
+    return 0;
+}
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/84c229c7-8e2f-450b-bf0c-1ac7ef9b630b)
+
+
 
 
 
