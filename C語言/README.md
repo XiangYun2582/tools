@@ -759,8 +759,8 @@ int main()
 
 * 整數或浮點數做算術運算的結果
   * 當兩個同樣整數或浮點數型別的值做算術運算時，其結果也是同樣的型別
-    * (int) + (int) ➡️ (int)
-    * (float) + (float) ➡️ (float)
+    * (int) + (int)       ➡️ (int)
+    * (float) + (float)   ➡️ (float)
     * (double) + (double) ➡️ (double)
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/86b02fe6-1cca-4cc0-853b-cb9e50601750)
@@ -786,9 +786,9 @@ int main()
 
 * 不一樣型別的值做算術運算的結果`(編譯器自動幫你做)`
   * 當兩個不一樣整數或浮點數型別的值做算術運算時,如果可以算,會「隱性轉型」成範圍較大的型別並算出該型別的值:
-    * (int) + (float) ➡️ (float) + (float) ➡️ (float)
+    * (int) + (float)    ➡️ (float) + (float)   ➡️ (float)
     * (double) + (float) ➡️ (double) + (double) ➡️ (double)
-    * (int) + (double) ➡️ (double) + (double) ➡️ (double)
+    * (int) + (double)   ➡️ (double) + (double) ➡️ (double)
 * 隱性轉型與顯性轉型
   * 隱性轉型是當運算有需要時自動發生的:
 
