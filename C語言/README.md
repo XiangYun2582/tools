@@ -860,7 +860,7 @@ int main()
 #include <stdio.h>
 
 int main(){
-    //宣告定義一個叫做 ch的字元變数,並初始化為 A
+    //宣告定義一個叫做 ch的字元變數,並初始化為 A
     char ch = 'A';
     printf("%c\n",ch);
     return 0;
@@ -868,7 +868,66 @@ int main(){
 ```
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/84c229c7-8e2f-450b-bf0c-1ac7ef9b630b)
 
+* 範例字串可以做計算嗎?
+  * 想想下列這些運算的結果是甚麼?'A'(65) + 1 ➡️ 'B'(66)
+  * 變成跟編號去做運算
+    * 'A' + 1 ➡️ 'B'
+    * 'a' + 1 ➡️ 'b'
+    * 'A' - 1 ➡️ '@'
+    * 'A' + '1' ➡️ 'r'
 
+```c
+int main(){
+    //宣告定義一個叫做 ch的字元變數,並初始化為 A
+    char ch = 'a' + 1;
+    printf("%c\n",ch);
+    return 0;
+}
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/f1d79beb-505e-4c12-a0cd-a65b5595ae7d)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/9091a48b-051b-409f-ad45-a07daa5e2d52)
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/9bd1f564-b65d-4b71-b35b-598e74c0bbf2)
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `字元大小寫轉換練習`
+
+* 試寫一程式,讓使用者輸入一個大寫英文字母後,將其轉換成對應的小寫英文字母後印出。
+  * 例如:
+    * 如果使用者輸入A,則程式輸出a
+    * 如果使用者輸入B,則程式要輸b
+    * 如果使用者輸入Z,則程式要輸出z
+
+```c
+#include <stdio.h>
+
+int main(){
+    char input,output;
+    scanf("%c",&input);
+    output = input + 32;
+    printf("%c\n",output);
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/92f32222-8490-4ce6-af34-5e1c25c46d5a)
+
+```c
+#include <stdio.h>
+
+int main(){
+    char input,output;
+    scanf("%c",&input);
+    output = input + ('a'-'A');
+    printf("%c\n",output);
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/b3873a66-92bf-4e60-9f51-113e1bc026f2)
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `怎麼選擇要使用的型別`
+* 
 
 
 
