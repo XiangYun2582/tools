@@ -26,7 +26,7 @@
 | 第三章      | 流程控制    |有條件的執行一次、滿額折扣計算練習、三角形 |[流程控制](#流程控制)     |
 | 第四章      | if述句練習    |最大值、最小值、中位數、排序應用、三角形 |[if述句練習](#if述句練習)     |
 | 第五章      | if_else練習    |二選一的交叉路路口、四則運算、最大值二、switch、ID查詢練習 |[if_else練習](#if_else練習)     |
-
+| 第六章 |while練習 ||[while練習](#while練習) |
 
 ----
 
@@ -1702,6 +1702,84 @@ int main(){
 * 重複?
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/9745611a-4fee-4c79-8d4a-0e9771a1ab7a)
 
+
+## while練習
+
+| 🍊章節名稱  | 🍎內容 |🐇跳轉 |
+| ------------- |:-------------|:-------------|
+| 有條件地重複執行   | while | [有條件地重複執行](#有條件地重複執行 )    |
+|猜數字練習|猜數字練習while|[猜數字練習](#猜數字練習)|
+
+
+### 有條件地重複執行
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/667397cc-fa4f-4d1b-b204-32b9e3d7a010)
+
+```c
+#include <stdio.h>
+int main() {
+    int count = 0;
+    while (count < 3) {
+        printf("%d\n",count) ;
+        count = count + 1;
+    }
+return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/53f231d6-803b-4d60-8112-5c5c627a7022)
+
+### 猜數字練習
+```c
+#include <stdio.h>
+int main() {
+    int answer = 4 ;
+    int guess;
+    printf("Please enter your guess: ");
+    scanf("%d",&guess);
+    while (guess != answer){
+        if (guess > answer){
+            printf("Too large! \n") ;
+        } else{
+            printf("Too small! \n");
+        }
+        printf("Please enter your guess: ");
+        scanf("%d", &guess);
+    }
+    printf("Correct! \n") ;
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/bc1771bf-d307-439c-a5af-e7799454fd2c)
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `加次數`
+
+```c
+#include <stdio.h>
+int main() {
+    int answer = 4 ;
+    int guess;
+    int count = 0;
+    printf("Please enter your guess: ");
+    scanf("%d",&guess);
+    count = count + 1;
+    while (guess != answer){
+        if (guess > answer){
+            printf("Too large! \n") ;
+        } else{
+            printf("Too small! \n");
+        }
+        printf("Please enter your guess: ");
+        scanf("%d", &guess);
+        count = count + 1;
+    }
+    printf("Correct! (%d)\n",count) ;
+    return 0;
+}
+
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/95678ea1-3c72-4f92-9da7-9a62d1ed2f2e)
 
 
 
