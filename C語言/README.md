@@ -13,6 +13,7 @@
   * [程式碼工整秘訣-可讀性](#可讀性)
   * [數值交換](#數值交換)
 > 初學者建議:[連結](https://www.youtube.com/watch?v=QROGWhR97G4&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=20&ab_channel=FeisStudio)
+![image](https://github.com/XiangYun2582/tools/assets/110577553/77013cb1-3a24-44e3-855c-453d4fe832ff)
 
 ----
 > 前面視為基礎訓練
