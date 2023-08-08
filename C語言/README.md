@@ -2139,6 +2139,158 @@ int main() {
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/73b38b9d-ac2e-4427-b454-8a80beee9de0)
 
+### 九九乘法表
+
+```c
+#include <stdio.h>
+int main(){
+    int c;
+    for (c =1; c<= 72; ++c){
+        int i = (c-1)/9+2;
+        int j = (c-1)%9+1;
+        printf("%d x %d = %d\n ",i,j,i*j);
+    }
+    return 0;
+}
+```
+
+
+### 長方形
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `實心`
+```c
+#include <stdio.h>
+int main(){
+    int N;
+    printf("N = ");
+    scanf("%d", &N);
+
+    int i,j;
+    for (i = 1;i <= N ;++i){
+        for (j = 1;j <=N;++j){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/e0bc4790-7859-403e-9be0-fcb4e685fd38)
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `空心`
+
+```c
+#include <stdio.h>
+int main(){
+    int N;
+    printf("N = ");
+    scanf("%d" , &N);
+    int i, j;
+    for (i = 1; i <=N; ++i){
+        for (j = 1; j <= N; ++j){
+            if(i == 1 || i == N || j== 1 || j==N){
+                printf("*");
+            } else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/6717f2ba-778c-4e9b-b00f-540555ab2f79)
+
+### 三角形
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `三角形`
+
+```c
+#include <stdio.h>
+int main() {
+    int N;
+    printf("N = ");
+    scanf("%d" , &N);
+    int i, j;
+    printf("*\n"); //印1個星星
+    for (i= 0; i <=N-3; ++i){
+        printf("*");//印1個星星
+        for(j=1; j <= i; ++j){//印i個空白
+            printf(" ");
+        }
+        printf("*\n"); //印1 個星星+換行
+    }
+    for(j=1;j<=N;++j){ //印N個星星
+        printf("*");
+    }
+    printf ("D\n"); //換行
+    return 0;
+}
+
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/5b8f6f6f-9846-4e10-8540-223dc04d35c9)
+
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `座標法`
+
+```c
+#include <stdio.h>
+int main() {
+    int i, j;
+    for (i = 1; i <= 5; ++i){
+        for (j = 1; j <= 5; ++j) {
+            printf("(%d,%d)", i, j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/857b4050-4296-4194-9801-2150cf4111c4)
+
+### 空心三角形
+
+```c
+#include <stdio.h>
+int main(){
+    int N;
+    printf("N = ");
+    scanf("%d", &N);
+    int i, j;
+
+    for (i= 1; i <=N; ++i){
+        for(j=1; j <= N; ++j){
+            if(j == N||i == N ||i+j == N+1){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/53f9177d-409d-47c0-86bf-8ebad752c6ef)
+
+### 找簡易的方程式整數解
+* 已知兩個正整數相加為30,相乘為221。求此兩個正整數為?
+```c
+#include <stdio.h>
+int main() {
+    int i,j;
+    for (i = 1; i <= 30; ++i){
+        int j= 30-i;
+        if (i*j ==221){
+            printf("%d, %d\n",i,j);
+        }
+    }
+    return 0;
+}
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/cf53d523-b4e6-4a9c-b381-34a0691bd7f2)
 
 
 
