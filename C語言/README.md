@@ -29,6 +29,9 @@
 | 第六章 |while練習 |有條件地重複執行、猜數字練習、求不定個數正整數和、求平均和、數數字、do-while、複合運算、消費金額計算|[while練習](#while練習) |
 | 第七章 |for練習 |計次型的重複執行、印數字、求數字和|[for練習](#for練習) |
 | 第八章 |for練習二 |韓信點兵、質數、九九乘法表、長方形、三角形、找簡易的方程式整數解|[for練習二](#for練習二) |
+| 第九章 |for練習二 ||[函式簡介](#函式簡介) |
+
+https://www.youtube.com/watch?v=QDcGPASnB6k&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=96&ab_channel=FeisStudio
 ----
 
 ### 初步認識
