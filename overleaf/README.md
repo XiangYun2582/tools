@@ -20,6 +20,7 @@
   * [垂直空白](#垂直空白)
   * [調整行距](#調整行距)
   * [居中與靠邊](#居中與靠邊)
+  * [其他](#其他)
 * [PPT加上latex](#PPT)
 * [Reference](#Reference)
 
@@ -382,7 +383,10 @@ $f$ 在 $a$ 點連續, 若:
 \begin{flushleft}· · · \end{flushleft} #環境內文字靠左
 \begin{flushright}· · · \end{flushright} #環境內文字靠右
 ```
-
+### 其他
+* [hat](#https://www.physicsread.com/latex-hat-symbol/)
+* [小圖鑑](#https://bcc16.ncu.edu.tw/7/latex/math_tex/)
+* [百科全書](#https://hackmd.io/@scholar/SJecoBOmwX)
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
 
