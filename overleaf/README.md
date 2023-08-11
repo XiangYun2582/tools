@@ -384,9 +384,9 @@ $f$ 在 $a$ 點連續, 若:
 \begin{flushright}· · · \end{flushright} #環境內文字靠右
 ```
 ### 其他
-* [hat](#https://www.physicsread.com/latex-hat-symbol/)
-* [小圖鑑](#https://bcc16.ncu.edu.tw/7/latex/math_tex/)
-* [百科全書](#https://hackmd.io/@scholar/SJecoBOmwX)
+* [hat](https://www.physicsread.com/latex-hat-symbol/)
+* [小圖鑑](https://bcc16.ncu.edu.tw/7/latex/math_tex/)
+* [百科全書](https://hackmd.io/@scholar/SJecoBOmwX)
 ## PPT
 * [PPT 上打 LaTeX 數學方程式](https://show6114.com/2017/08/11/ppt-latex-equation/comment-page-1/)
 
