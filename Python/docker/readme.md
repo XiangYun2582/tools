@@ -1,4 +1,4 @@
-# ![Generic badge](https://badgen.net/docker/XiangYun/library/mongo?icon=docker&label=stars.svg)
+# ![Generic badge](https://badgen.net/docker/stars/library/mongo?icon=docker&label=XiangYun)
 
 ### 跳到另一個主題  🐇
 * [初步認識](#初步認識)
