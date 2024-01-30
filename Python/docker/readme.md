@@ -3,6 +3,7 @@
 ### 跳到另一個主題  🐇
 * [初步認識](#初步認識)  
 * [小技巧](#技巧)
+* [終端指令](#終端指令)
 
 > 未來:[選擇 Podman 而不是 Docker](https://ithelp.ithome.com.tw/articles/10238749)  
 > 參考:  
@@ -141,5 +142,13 @@ $ docker rm $(docker ps -a -q)
 
 # 刪除所有的 images
 $ docker rmi $(docker images -a -q)
+```
+### 終端指令
+
+```
+cd
+dir
+mirk
+rename Dockerfile.dockerfile Dockerfile
 ```
 
