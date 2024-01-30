@@ -1,17 +1,14 @@
-# ![Generic badge](https://badgen.net/docker/stars/library/mongo?icon=docker&label=stars.svg)
+# ![Generic badge](https://badgen.net/docker/XiangYun/library/mongo?icon=docker&label=stars.svg)
 
 ### 跳到另一個主題  🐇
 * [初步認識](#初步認識)
-* [整合開發環境介紹](#整合開發環境介紹)
-* [整合開發環境安裝](#整合開發環境安裝)
-  * [建立一個專案](#建立一個專案)
-  * [一些小設定](#一些小設定)
-  * [編譯器的錯誤訊息](#編譯器的錯誤訊息)
-  * [程式讀取的原理](#程式讀取的原理)
-  * [字元跳脫](#字元跳脫)
-  * [求數字和](#求數字和)
-  * [程式碼工整秘訣-可讀性](#可讀性)
-  * [數值交換](#數值交換)
-> 初學者建議:[連結](https://www.youtube.com/watch?v=QROGWhR97G4&list=PLY_qIufNHc293YnIjVeEwNDuqGo8y2Emx&index=20&ab_channel=FeisStudio)
 
+> 未來:[選擇 Podman 而不是 Docker](https://ithelp.ithome.com.tw/articles/10238749)
+> 參考:  
+> [Docker 基本教學 - 從無到有 Docker-Beginners-Guide](https://github.com/twtrubiks/docker-tutorial?tab=readme-ov-file)
+> [Docker新手教学](https://github.com/komavideo/LearnDocker/tree/master)
+> [Docker 基本指令操作](https://ithelp.ithome.com.tw/articles/10186431)
+> [Docker入門-2](https://ithelp.ithome.com.tw/articles/10225104)
 ----
+### Docker 基本指令操作
+* ![Generic badge](https://badgen.net/badge/_/_?style=flat&logo=#7A1FA2.svg) `為甚麼我要學C語言`
