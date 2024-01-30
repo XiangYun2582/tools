@@ -148,7 +148,7 @@ $ docker rmi $(docker images -a -q)
 ```
 cd
 dir
-mirk
+mkdir
 rename Dockerfile.dockerfile Dockerfile
 ```
 
