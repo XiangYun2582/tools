@@ -3,3 +3,35 @@
 - 然後，請記得自己的密碼，就是有規律很少的那個密碼。
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/cb48abff-335c-4e9a-9691-8d05e218d5b7)
 - 加號類似新增的project概念
+
+## 創建資料庫
+```mysql
+CREATE DATABASE `sql_tutorial`;-- 新增資料庫 sql_tutorial 或 `sql_tutorial`
+SHOW DATABASES;-- 查看資料庫(包含base)
+```
+- 執行快捷鍵(crtl+Enter)
+- 註解(crtl+/)
+- 依次執行全部(crtl+shift+Enter)
+- 美化腳本(crtl+B)
+- （貌似和輸入法有沖突）自動補全：【Ctrl】+【Space】
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/8a852ca7-6347-4979-a1a9-a29653e92b1e)
+```mysql
+DROP DATABASE 'sql_tutorial'; -- 丟掉資料庫
+```
+![image](https://github.com/XiangYun2582/tools/assets/110577553/39bf8bf4-0f80-4586-b207-e7f12042c3ac)
+
+## 創建表格
+
+| 運算  | 敘述 |
+|:-------------:|:-------------|
+| INT           | 整數            |
+| DECIMAL(m,n)  | 有小數點的數，總共有m位數、小數點占n;(3,2) $\Rightarrow$ 2.33     |
+| VARCHAR(n)    | 字串         |
+| BLOB          | (Binary Large Object)圖片影片檔案···         |
+| DATE          | 'YYYY-MM-DD' 日期         |
+| TIMESTAMP     | 'YYYY-MM-DD HH:MM:SS'紀錄時間          |
+
+
+
+
