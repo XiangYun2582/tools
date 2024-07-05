@@ -27,10 +27,47 @@ DROP DATABASE 'sql_tutorial'; -- 丟掉資料庫
 |:-------------:|:-------------|
 | INT           | 整數            |
 | DECIMAL(m,n)  | 有小數點的數，總共有m位數、小數點占n;(3,2) $\Rightarrow$ 2.33     |
-| VARCHAR(n)    | 字串         |
+| VARCHAR(n)    | 字串 最多放10個字元        |
 | BLOB          | (Binary Large Object)圖片影片檔案···         |
 | DATE          | 'YYYY-MM-DD' 日期         |
 | TIMESTAMP     | 'YYYY-MM-DD HH:MM:SS'紀錄時間          |
+
+```mysql
+CREATE DATABASE `sql_tutorial`;
+SHOW DATABASES;
+USE `sql_tutorial`;-- 使用資料庫
+
+-- 新增student的表格
+CREATE TABLE `student` (
+    `studnet_id` INT PRIMARY KEY,
+    `name` VARCHAR(20),
+    `major` VARCHAR(20)
+    -- PRIMARY KEY(`studnet_id`) -- 也可以這樣寫
+);
+
+DESCRIBE `student`;
+DESCRIBE `student`;
+DROP TABLE `student`;-- 當然也可以丟表格
+
+ALTER TABLE 'student' ADD gpa
+```
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/ca677458-2538-449b-852b-f02609d602f6)
+
+```mysql
+ALTER TABLE `student` ADD gpa DECIMAL(3,2);
+ALTER TABLE `student` DROP COLUMN gpa;-- 丟表格student 的屬性gpa
+```
+
+- 加上gpa分數
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/7f94e843-a36a-45b4-8342-3abb972099ae)
+
+- 丟掉屬性gpa
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/d4272338-dcb9-4600-b3a5-224efe3355a7)
+
+
 
 
 
