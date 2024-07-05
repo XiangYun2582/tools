@@ -1,3 +1,4 @@
+# ![Generic badge](https://badgen.net/badge/icon/MySQL?icon=windows&label&color=orange)
 關聯式資料庫(SQL)
 ```diff
 ! Structured Query Language (SQL)
