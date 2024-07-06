@@ -49,7 +49,7 @@ DESCRIBE `student`;
 DESCRIBE `student`;
 DROP TABLE `student`;-- 當然也可以丟表格
 
-ALTER TABLE 'student' ADD gpa
+ALTER TABLE `student` DROP COLUMN gpa;
 ```
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/ca677458-2538-449b-852b-f02609d602f6)
