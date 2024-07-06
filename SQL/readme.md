@@ -26,6 +26,7 @@
    
 4. [關聯資料庫念](http://cc.cust.edu.tw/~ccchen/doc/db_02.pdf)
 5. [Data Type — 如何創建tables資料表](https://chwang12341.medium.com/mysql-%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E5%9B%9B-mysql%E4%B8%AD%E7%9A%84%E8%B3%87%E6%96%99%E9%A1%9E%E5%9E%8B-data-type-%E5%A6%82%E4%BD%95%E5%89%B5%E5%BB%BAtables%E8%B3%87%E6%96%99%E8%A1%A8-%E5%A6%82%E4%BD%95%E6%93%8D%E4%BD%9C%E8%B3%87%E6%96%99%E8%A1%A8-%E5%BF%AB%E9%80%9F%E7%82%BA%E8%87%AA%E5%B7%B1%E5%89%B5%E5%BB%BA%E4%B8%80%E5%80%8B%E8%B3%87%E6%96%99%E8%A1%A8-927e0c365d6e)
+6. [更進階的語法](https://www.youtube.com/watch?v=Krrek8onTc8&list=PLmvLOUyx8RK9u_Ara4NtwymGQ3idvMvPv&index=1)
    
 - 練習題:
 
