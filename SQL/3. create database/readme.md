@@ -17,7 +17,7 @@ SHOW DATABASES;-- 查看資料庫(包含base)
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/8a852ca7-6347-4979-a1a9-a29653e92b1e)
 ```mysql
-DROP DATABASE 'sql_tutorial'; -- 丟掉資料庫
+DROP DATABASE `sql_tutorial`; -- 丟掉資料庫
 ```
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/39bf8bf4-0f80-4586-b207-e7f12042c3ac)
 
