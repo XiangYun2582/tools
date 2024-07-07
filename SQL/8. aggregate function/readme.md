@@ -11,9 +11,15 @@
 
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/bbe0f2ce-3804-4583-b01f-cd23b9063371)
 
-- MAX
-  
+- SUM
+
 ![image](https://github.com/XiangYun2582/tools/assets/110577553/349d89fb-9dcd-4552-be17-63826d61eca9)
+
+
+- MAX
+
+![image](https://github.com/XiangYun2582/tools/assets/110577553/7d685d87-fab1-4279-9396-e7fa3e0cb232)
+
 
 - MIN
   
