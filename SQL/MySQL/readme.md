@@ -1,4 +1,4 @@
-# MySQL
+# MySQL 目錄
 
 - MySQL is open-source
 - MySQL is free
@@ -8,62 +8,65 @@
 - RDBMS is a program used to maintain a relational database.
 - RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, Oracle, and Microsoft Access. [website](https://www.w3schools.com/mysql/mysql_rdbms.asp)
 
-- [mysql 基本介紹](#mysql)
-- [mysql sql 語法總覽](#mysql-sql)
-- [select 基本語法](#select)
-- [where 條件查詢](#where)
-- [and, or 和 not 操作符](#and-or-and-not-operators)
-- [排序](#order-by)
-- [插入資料](#insert-into)
-- [null 值](#null)
-- [更新資料](#update)
-- [刪除資料](#delete)
-- [限制](#limit)
-- [最小值與最大值](#min-and-max)
-- [計數、平均值與總和](#count,-avg,-sum)
-- [like 條件](#like)
-- [通配符 (wildcards)](#wildcards)
-- [in 條件](#in)
-- [between 條件](#between)
-- [別名](#aliases)
-- [連接](#joins)
-- [內部連接](#inner-join)
-- [左連接](#left-join)
-- [右連接](#right-join)
-- [交叉連接](#cross-join)
-- [自我連接](#self-join)
-- [聯合](#union)
-- [分組](#group-by)
-- [having](#having)
-- [exists](#exists)
-- [any, all](#any-and-all)
-- [插入選擇](#insert-select)
-- [條件表達式](#case)
-- [null 函數](#ifnull)
-----
-- [註解](#comments)
-- [運算子](#operators)
-- [資料庫](#database)
-- [建立資料庫](#create-db)
-- [刪除資料庫](#drop-db)
-- [建立資料表](#create-table)
-- [刪除資料表](#drop-table)
-- [修改資料表](#alter-table)
-- [限制條件](#constraints)
-- [非空值](#not-null)
-- [唯一值](#unique)
-- [主鍵](#primary-key)
-- [外鍵](#foreign-key)
-- [檢查](#check)
-- [預設值](#default)
-- [建立索引](#create-index)
-- [自動遞增](#auto-increment)
-- [日期](#dates)
-- [檢視](#views)
-----
-- [參考 (references)](#references)
-- [資料型別](#data-types)
-- [函數 (functions)](#functions)
+| 項目               | 連結                             |
+|--------------------|----------------------------------|
+| [mysql 基本介紹]    | [#mysql](#mysql)                 |
+| [mysql sql 語法總覽] | [#mysql-sql](#mysql-sql)         |
+| [select 基本語法]    | [#select](#select)               |
+| [where 條件查詢]     | [#where](#where)                 |
+| [and, or 和 not 操作符] | [#and-or-and-not-operators](#and-or-and-not-operators) |
+| [排序]              | [#order-by](#order-by)           |
+| [插入資料]          | [#insert-into](#insert-into)     |
+| [null 值]           | [#null](#null)                   |
+| [更新資料]          | [#update](#update)               |
+| [刪除資料]          | [#delete](#delete)               |
+| [限制]              | [#limit](#limit)                 |
+| [最小值與最大值]     | [#min-and-max](#min-and-max)     |
+| [計數、平均值與總和] | [#count,-avg,-sum](#count,-avg,-sum) |
+| [like 條件]         | [#like](#like)                   |
+| [通配符 (wildcards)] | [#wildcards](#wildcards)         |
+| [in 條件]           | [#in](#in)                       |
+| [between 條件]      | [#between](#between)             |
+| [別名]              | [#aliases](#aliases)             |
+| [連接]              | [#joins](#joins)                 |
+| [內部連接]          | [#inner-join](#inner-join)       |
+| [左連接]            | [#left-join](#left-join)         |
+| [右連接]            | [#right-join](#right-join)       |
+| [交叉連接]          | [#cross-join](#cross-join)       |
+| [自我連接]          | [#self-join](#self-join)         |
+| [聯合]              | [#union](#union)                 |
+| [分組]              | [#group-by](#group-by)           |
+| [having]            | [#having](#having)               |
+| [exists]            | [#exists](#exists)               |
+| [any, all]          | [#any-and-all](#any-and-all)     |
+| [插入選擇]          | [#insert-select](#insert-select) |
+| [條件表達式]        | [#case](#case)                   |
+| [null 函數]         | [#ifnull](#ifnull)               |
+|--------------------|----------------------------------|
+| [註解]              | [#comments](#comments)           |
+| [運算子]            | [#operators](#operators)         |
+| [資料庫]            | [#database](#database)           |
+| [建立資料庫]        | [#create-db](#create-db)         |
+| [刪除資料庫]        | [#drop-db](#drop-db)             |
+| [建立資料表]        | [#create-table](#create-table)   |
+| [刪除資料表]        | [#drop-table](#drop-table)       |
+| [修改資料表]        | [#alter-table](#alter-table)     |
+| [限制條件]          | [#constraints](#constraints)     |
+| [非空值]            | [#not-null](#not-null)           |
+| [唯一值]            | [#unique](#unique)               |
+| [主鍵]              | [#primary-key](#primary-key)     |
+| [外鍵]              | [#foreign-key](#foreign-key)     |
+| [檢查]              | [#check](#check)                 |
+| [預設值]            | [#default](#default)             |
+| [建立索引]          | [#create-index](#create-index)   |
+| [自動遞增]          | [#auto-increment](#auto-increment) |
+| [日期]              | [#dates](#dates)                 |
+| [檢視]              | [#views](#views)                 |
+|--------------------|----------------------------------|
+| [參考 (references)] | [#references](#references)       |
+| [資料型別]          | [#data-types](#data-types)       |
+| [函數 (functions)]   | [#functions](#functions)         |
+
 
 
 
