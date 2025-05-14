@@ -67,9 +67,6 @@
 | [資料型別]          | [#data-types](#data-types)       |
 | [函數 (functions)]   | [#functions](#functions)         |
 
-
-
-
 ## MySQL SQL
 
 ```sql
@@ -91,7 +88,7 @@ FROM Customers;
 - `CREATE INDEX` - creates an index (search key)
 - `DROP INDEX` - deletes an index
 
-### `SELECT`
+### SELECT
 
 ![alt text](Northwind.png)
 
@@ -101,7 +98,7 @@ SELECT CustomerName, City, Country
 FROM Customers;
 ```
 
-### `WHERE`
+### WHERE
 
 ```sql
 SELECT * 
@@ -136,7 +133,7 @@ WHERE City IN ('Paris','London');
 |LIKE|	Search for a pattern	|
 |IN|	To specify multiple possible values for a column|
 
-### `AND`, `OR` and `NOT` Operators
+### AND, OR and NOT Operators
 
 ```sql
 SELECT * FROM Customers
@@ -153,7 +150,7 @@ WHERE NOT Country = 'Germany' AND NOT Country = 'USA';
 ```
 ![alt text](ANDresult.png)
 
-### `ORDER BY`
+### ORDER BY
 
 ```sql
 SELECT * FROM Customers
@@ -180,7 +177,7 @@ INSERT INTO Customers (CustomerName, City, Country)
 VALUES ('Cardinal', 'Stavanger', 'Norway');-- NULL happened
 ```
 
-### `NULL`
+### NULL
 
 ```sql
 SELECT CustomerName, ContactName, Address
@@ -189,7 +186,7 @@ WHERE Address IS NULL;
 -- WHERE Address IS NOT NULL;
 ```
 
-### `UPDATE Table`
+### UPDATE Table
 
 ```sql
 UPDATE Customers
@@ -205,7 +202,7 @@ UPDATE Customers
 SET PostalCode = 00000;
 ```
 
-### `DELETE`
+### DELETE
 
 ```sql
 DELETE FROM Customers 
@@ -214,7 +211,7 @@ WHERE CustomerName='Alfreds Futterkiste';
 -- DELETE FROM Customers;
 ```
 
-### `DELETE`
+### LIMIT
 
 ```sql
 SELECT * FROM Customers
@@ -231,7 +228,7 @@ LIMIT 3;
 ```
 
 
-### `MIN() and MAX() Functions`
+### MIN() and MAX() Functions
 
 ```sql
 SELECT MIN(Price) AS SmallestPrice
@@ -241,7 +238,7 @@ SELECT MAX(Price) AS LargestPrice
 FROM Products;
 ```
 
-### `MIN() and MAX() Functions`
+### AVG Functions
 
 ```sql
 SELECT COUNT(ProductID)-- Note: NULL values are not counted.
@@ -254,7 +251,7 @@ SELECT SUM(Quantity)
 FROM OrderDetails;
 ```
 
-### `LIKE Operator`
+### LIKE Operator
 
 |LIKE Operator|	Description|
 |WHERE CustomerName LIKE 'a%'|	Finds any values that start with "a"|
@@ -284,7 +281,7 @@ SELECT * FROM Customers
 WHERE CustomerName NOT LIKE 'a%';
 ```
 
-### `MySQL IN Operator`
+### MySQL IN Operator
 
 ```sql
 SELECT * FROM Customers
@@ -295,7 +292,7 @@ SELECT * FROM Customers
 WHERE Country IN (SELECT Country FROM Suppliers);-- The following SQL statement selects all customers that are from the same countries as the suppliers
 ```
 
-### `BETWEEN`
+### BETWEEN
 
 ```sql
 SELECT * FROM Products
@@ -314,7 +311,7 @@ SELECT * FROM Orders
 WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
 ```
 
-### `Aliases`
+### Aliases
 
 ```sql
 SELECT CustomerID AS ID, CustomerName AS Customer
@@ -338,7 +335,7 @@ WHERE Customers.CustomerName='Around the Horn' AND Customers.CustomerID=Orders.C
 - Two or more columns are combined together
 - SELECT CustomerName AS "Name of Customer" FROM Customers;-- " '都可以，中文""
 
-### `Joins`
+### Joins
 
 - we can create the following SQL statement (that contains an INNER JOIN), that selects records that have matching values in both tables.
 ```sql
@@ -379,7 +376,7 @@ ORDER BY A.City;
 
 ![alt text](join.png)
 
-### `UNION`
+### UNION
 
 - Note: If some customers or suppliers have the same city, each city will only be listed once, because UNION selects only distinct values. Use UNION ALL to also select duplicate values!
 - UNION ALL會有重複值的情況發生
@@ -412,7 +409,7 @@ FROM Suppliers
 |Customer|	Maria Anders|	Berlin	Germany|
 |Customer|	Ana Trujillo|	México D.F.	Mexico|
 
-### `GROUP BY`
+### GROUP BY
 
 ```sql
 SELECT COUNT(CustomerID), Country
@@ -430,7 +427,7 @@ GROUP BY ShipperName;
 |Speedy Express|	249|
 |United Package|	326|
 
-### `HAVING`
+### HAVING
 
 ```sql
 SELECT COUNT(CustomerID), Country
@@ -465,7 +462,7 @@ GROUP BY LastName
 HAVING COUNT(Orders.OrderID) > 10;
 ```
 
-### `EXISTS`
+### EXISTS
 
 ```sql
 SELECT SupplierName
@@ -477,7 +474,7 @@ FROM Suppliers
 WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price = 22);
 ```
 
-### `ANY and ALL`
+### ANY and ALL
 
 The ANY operator:
 
@@ -513,7 +510,7 @@ WHERE ProductID = ALL
   WHERE Quantity = 10);
 ```
 
-### `INSERT INTO`
+### INSERT INTO
 
 ```sql
 INSERT INTO Customers (CustomerName, City, Country)
@@ -527,7 +524,7 @@ SELECT SupplierName, City, Country FROM Suppliers
 WHERE Country='Germany';
 ```
 
-### `CASE`
+### CASE
 
 ```
 CASE
@@ -556,7 +553,7 @@ ORDER BY
 END);
 ```
 
-### `IFNULL`
+### IFNULL
 
 ```sql
 SELECT ProductName, UnitPrice * (UnitsInStock + IFNULL(UnitsOnOrder, 0))-- UnitsOnOrder可能空值
